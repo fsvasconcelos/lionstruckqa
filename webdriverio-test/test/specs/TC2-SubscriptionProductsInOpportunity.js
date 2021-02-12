@@ -23,7 +23,7 @@ describe('Salesforce E2E', function () {
     addProduct.click();
     const searchText = $('[title="Search Products"]');
     searchText.setValue('Truck TGX');
-	browser.keys('\uE007');
+	browser.keys('\uE007');//Enter
 	browser.pause(3000);
     $('//tbody/tr[1]/td[2]/span[1]/span[1]/label[1]/span[1]').click();
     browser.pause(3000);
@@ -32,10 +32,10 @@ describe('Salesforce E2E', function () {
     browser.pause(3000);
     const quantity = $('//tbody/tr[1]/td[2]/span[1]/span[2]/button[1]');
     quantity.click();
-    browser.keys('\uE01B');
+    browser.keys('\uE01B');//Press '1'
     const service = $('//tbody/tr[1]/td[4]/span[1]/span[2]/button[1]');
     service.click();
-    browser.keys('\uE00D');
+    browser.keys('\uE00D');//Add space
     browser.pause(3000);
     $('//body/div[4]/div[2]/div[1]/div[2]/div[1]/div[3]/div[1]/button[3]/span[1]').click();
     

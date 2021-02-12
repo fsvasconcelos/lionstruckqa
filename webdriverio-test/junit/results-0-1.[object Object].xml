@@ -1,2 +1,165 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuites/>
+<testsuites>
+  <testsuite name="Salesforce_E2E" timestamp="2021-02-12T00:21:22" time="37.131" tests="4" failures="0" errors="0" skipped="0">
+    <properties>
+      <property name="specId" value="0"/>
+      <property name="suiteName" value="Salesforce E2E"/>
+      <property name="capabilities" value="chrome.88_0_4324_150.windows"/>
+      <property name="file" value=".\test\specs\TC2-SubscriptionProductsInOpportunity.js"/>
+    </properties>
+    <testcase classname="chrome.88_0_4324_150.windows.Salesforce_E2E" name="should_login" time="1.616">
+      <system-out>
+        <![CDATA[
+COMMAND: POST /session/62575a18aef7166a764b30eacb1d04a9/url - {"url":"https://lisboa2-dev-ed.my.salesforce.com/secur/frontdoor.jsp?sid=00D09000007FkiR!AQEAQJlOq5HE3UvXhoBenZQZZb7IEWf_5Q3TsWyRkyaCQhS7xpJiMMDPjQlyA.wq.KknICSfWSKK9kcOhf4Cr3.p9viMUkWy"}
+RESULT: {"url":"https://lisboa2-dev-ed.my.salesforce.com/secur/frontdoor.jsp?sid=00D09000007FkiR!AQEAQJlOq5HE3UvXhoBenZQZZb7IEWf_5Q3TsWyRkyaCQhS7xpJiMMDPjQlyA.wq.KknICSfWSKK9kcOhf4Cr3.p9viMUkWy"}
+]]>
+      </system-out>
+    </testcase>
+    <testcase classname="chrome.88_0_4324_150.windows.Salesforce_E2E" name="should_return_an_opportunity_with_line_items" time="8.156">
+      <system-out>
+        <![CDATA[
+COMMAND: POST /session/62575a18aef7166a764b30eacb1d04a9/element - {"using":"xpath","value":"//h1[contains(text(),'Products (Standard Price Book)')]"}
+COMMAND: POST /session/62575a18aef7166a764b30eacb1d04a9/url - {"url":"https://lisboa2-dev-ed.my.salesforce.com/lightning/r/OpportunityLineItem/00609000003PaZMAA0/related/OpportunityLineItems/view"}
+RESULT: {"using":"xpath","value":"//h1[contains(text(),'Products (Standard Price Book)')]"}
+COMMAND: POST /session/62575a18aef7166a764b30eacb1d04a9/elements - {"using":"xpath","value":"//h1[contains(text(),'Products (Standard Price Book)')]"}
+RESULT: {"url":"https://lisboa2-dev-ed.my.salesforce.com/lightning/r/OpportunityLineItem/00609000003PaZMAA0/related/OpportunityLineItems/view"}
+RESULT: {"using":"xpath","value":"//h1[contains(text(),'Products (Standard Price Book)')]"}
+COMMAND: POST /session/62575a18aef7166a764b30eacb1d04a9/elements - {"using":"xpath","value":"//h1[contains(text(),'Products (Standard Price Book)')]"}
+RESULT: {"using":"xpath","value":"//h1[contains(text(),'Products (Standard Price Book)')]"}
+COMMAND: POST /session/62575a18aef7166a764b30eacb1d04a9/elements - {"using":"xpath","value":"//h1[contains(text(),'Products (Standard Price Book)')]"}
+RESULT: {"using":"xpath","value":"//h1[contains(text(),'Products (Standard Price Book)')]"}
+COMMAND: POST /session/62575a18aef7166a764b30eacb1d04a9/elements - {"using":"xpath","value":"//h1[contains(text(),'Products (Standard Price Book)')]"}
+RESULT: {"using":"xpath","value":"//h1[contains(text(),'Products (Standard Price Book)')]"}
+COMMAND: POST /session/62575a18aef7166a764b30eacb1d04a9/elements - {"using":"xpath","value":"//h1[contains(text(),'Products (Standard Price Book)')]"}
+RESULT: {"using":"xpath","value":"//h1[contains(text(),'Products (Standard Price Book)')]"}
+COMMAND: POST /session/62575a18aef7166a764b30eacb1d04a9/elements - {"using":"xpath","value":"//h1[contains(text(),'Products (Standard Price Book)')]"}
+RESULT: {"using":"xpath","value":"//h1[contains(text(),'Products (Standard Price Book)')]"}
+COMMAND: POST /session/62575a18aef7166a764b30eacb1d04a9/elements - {"using":"xpath","value":"//h1[contains(text(),'Products (Standard Price Book)')]"}
+RESULT: {"using":"xpath","value":"//h1[contains(text(),'Products (Standard Price Book)')]"}
+COMMAND: POST /session/62575a18aef7166a764b30eacb1d04a9/elements - {"using":"xpath","value":"//h1[contains(text(),'Products (Standard Price Book)')]"}
+RESULT: {"using":"xpath","value":"//h1[contains(text(),'Products (Standard Price Book)')]"}
+COMMAND: POST /session/62575a18aef7166a764b30eacb1d04a9/elements - {"using":"xpath","value":"//h1[contains(text(),'Products (Standard Price Book)')]"}
+RESULT: {"using":"xpath","value":"//h1[contains(text(),'Products (Standard Price Book)')]"}
+COMMAND: POST /session/62575a18aef7166a764b30eacb1d04a9/element - {"using":"xpath","value":"//h1[contains(text(),'Products (Standard Price Book)')]"}
+RESULT: {"using":"xpath","value":"//h1[contains(text(),'Products (Standard Price Book)')]"}
+COMMAND: GET /session/62575a18aef7166a764b30eacb1d04a9/element/2117f363-e2b9-4e5a-abc1-e1a39f83fe5b/text - {}
+RESULT: {}
+COMMAND: GET /session/62575a18aef7166a764b30eacb1d04a9/element/2117f363-e2b9-4e5a-abc1-e1a39f83fe5b/text - {}
+RESULT: {}
+]]>
+      </system-out>
+    </testcase>
+    <testcase classname="chrome.88_0_4324_150.windows.Salesforce_E2E" name="should_add_service_in_opportunity" time="17.79">
+      <system-out>
+        <![CDATA[
+COMMAND: POST /session/62575a18aef7166a764b30eacb1d04a9/element - {"using":"xpath","value":"//div[contains(text(),'Add Products')]"}
+RESULT: {"using":"xpath","value":"//div[contains(text(),'Add Products')]"}
+COMMAND: POST /session/62575a18aef7166a764b30eacb1d04a9/element/3cd61c4b-dea5-4e33-8b48-7aba816b27e2/click - {}
+RESULT: {}
+COMMAND: POST /session/62575a18aef7166a764b30eacb1d04a9/element - {"using":"css selector","value":"[title=\"Search Products\"]"}
+RESULT: {"using":"css selector","value":"[title=\"Search Products\"]"}
+COMMAND: POST /session/62575a18aef7166a764b30eacb1d04a9/elements - {"using":"css selector","value":"[title=\"Search Products\"]"}
+RESULT: {"using":"css selector","value":"[title=\"Search Products\"]"}
+COMMAND: POST /session/62575a18aef7166a764b30eacb1d04a9/elements - {"using":"css selector","value":"[title=\"Search Products\"]"}
+RESULT: {"using":"css selector","value":"[title=\"Search Products\"]"}
+COMMAND: POST /session/62575a18aef7166a764b30eacb1d04a9/element - {"using":"css selector","value":"[title=\"Search Products\"]"}
+RESULT: {"using":"css selector","value":"[title=\"Search Products\"]"}
+COMMAND: POST /session/62575a18aef7166a764b30eacb1d04a9/element/c9bd5e4d-dfb6-4507-9d54-44545213cd97/clear - {}
+RESULT: {}
+COMMAND: POST /session/62575a18aef7166a764b30eacb1d04a9/element/c9bd5e4d-dfb6-4507-9d54-44545213cd97/value - {"text":"Truck TGX"}
+RESULT: {"text":"Truck TGX"}
+COMMAND: POST /session/62575a18aef7166a764b30eacb1d04a9/actions - {"actions":[{"type":"key","id":"keyboard","actions":[{"type":"keyDown","value":""},{"type":"keyUp","value":""}]}]}
+RESULT: {"actions":[{"type":"key","id":"keyboard","actions":[{"type":"keyDown","value":""},{"type":"keyUp","value":""}]}]}
+COMMAND: DELETE /session/62575a18aef7166a764b30eacb1d04a9/actions - {}
+RESULT: {}
+COMMAND: POST /session/62575a18aef7166a764b30eacb1d04a9/element - {"using":"xpath","value":"//tbody/tr[1]/td[2]/span[1]/span[1]/label[1]/span[1]"}
+RESULT: {"using":"xpath","value":"//tbody/tr[1]/td[2]/span[1]/span[1]/label[1]/span[1]"}
+COMMAND: POST /session/62575a18aef7166a764b30eacb1d04a9/element/07bc49e4-35ca-4c41-a39e-0cb81c777e37/click - {}
+RESULT: {}
+COMMAND: POST /session/62575a18aef7166a764b30eacb1d04a9/element - {"using":"xpath","value":"//body/div[4]/div[2]/div[1]/div[2]/div[1]/div[3]/div[1]/button[2]/span[1]"}
+RESULT: {"using":"xpath","value":"//body/div[4]/div[2]/div[1]/div[2]/div[1]/div[3]/div[1]/button[2]/span[1]"}
+COMMAND: POST /session/62575a18aef7166a764b30eacb1d04a9/element/b94ea390-45d8-42a6-8534-3ea41d8bc9eb/click - {}
+RESULT: {}
+COMMAND: POST /session/62575a18aef7166a764b30eacb1d04a9/element - {"using":"xpath","value":"//tbody/tr[1]/td[2]/span[1]/span[2]/button[1]"}
+RESULT: {"using":"xpath","value":"//tbody/tr[1]/td[2]/span[1]/span[2]/button[1]"}
+COMMAND: POST /session/62575a18aef7166a764b30eacb1d04a9/element/ec84cfb5-3ba4-4d67-8ce3-ba1d66fc6385/click - {}
+RESULT: {}
+COMMAND: POST /session/62575a18aef7166a764b30eacb1d04a9/actions - {"actions":[{"type":"key","id":"keyboard","actions":[{"type":"keyDown","value":""},{"type":"keyUp","value":""}]}]}
+RESULT: {"actions":[{"type":"key","id":"keyboard","actions":[{"type":"keyDown","value":""},{"type":"keyUp","value":""}]}]}
+COMMAND: DELETE /session/62575a18aef7166a764b30eacb1d04a9/actions - {}
+RESULT: {}
+COMMAND: POST /session/62575a18aef7166a764b30eacb1d04a9/element - {"using":"xpath","value":"//tbody/tr[1]/td[4]/span[1]/span[2]/button[1]"}
+RESULT: {"using":"xpath","value":"//tbody/tr[1]/td[4]/span[1]/span[2]/button[1]"}
+COMMAND: POST /session/62575a18aef7166a764b30eacb1d04a9/element/11d714fb-f8a3-4ec7-99ea-6c0a966ec3a4/click - {}
+RESULT: {}
+COMMAND: POST /session/62575a18aef7166a764b30eacb1d04a9/actions - {"actions":[{"type":"key","id":"keyboard","actions":[{"type":"keyDown","value":""},{"type":"keyUp","value":""}]}]}
+RESULT: {"actions":[{"type":"key","id":"keyboard","actions":[{"type":"keyDown","value":""},{"type":"keyUp","value":""}]}]}
+COMMAND: DELETE /session/62575a18aef7166a764b30eacb1d04a9/actions - {}
+RESULT: {}
+COMMAND: POST /session/62575a18aef7166a764b30eacb1d04a9/element - {"using":"xpath","value":"//body/div[4]/div[2]/div[1]/div[2]/div[1]/div[3]/div[1]/button[3]/span[1]"}
+RESULT: {"using":"xpath","value":"//body/div[4]/div[2]/div[1]/div[2]/div[1]/div[3]/div[1]/button[3]/span[1]"}
+COMMAND: POST /session/62575a18aef7166a764b30eacb1d04a9/element/8488befa-7452-4600-beb3-385f783d02dd/click - {}
+RESULT: {}
+COMMAND: POST /session/62575a18aef7166a764b30eacb1d04a9/element - {"using":"xpath","value":"//tbody/tr[3]/td[2]"}
+RESULT: {"using":"xpath","value":"//tbody/tr[3]/td[2]"}
+COMMAND: POST /session/62575a18aef7166a764b30eacb1d04a9/elements - {"using":"xpath","value":"//tbody/tr[3]/td[2]"}
+RESULT: {"using":"xpath","value":"//tbody/tr[3]/td[2]"}
+COMMAND: POST /session/62575a18aef7166a764b30eacb1d04a9/elements - {"using":"xpath","value":"//tbody/tr[3]/td[2]"}
+RESULT: {"using":"xpath","value":"//tbody/tr[3]/td[2]"}
+COMMAND: POST /session/62575a18aef7166a764b30eacb1d04a9/elements - {"using":"xpath","value":"//tbody/tr[3]/td[2]"}
+RESULT: {"using":"xpath","value":"//tbody/tr[3]/td[2]"}
+COMMAND: POST /session/62575a18aef7166a764b30eacb1d04a9/elements - {"using":"xpath","value":"//tbody/tr[3]/td[2]"}
+RESULT: {"using":"xpath","value":"//tbody/tr[3]/td[2]"}
+COMMAND: POST /session/62575a18aef7166a764b30eacb1d04a9/element - {"using":"xpath","value":"//tbody/tr[3]/td[2]"}
+RESULT: {"using":"xpath","value":"//tbody/tr[3]/td[2]"}
+COMMAND: GET /session/62575a18aef7166a764b30eacb1d04a9/element/7dc3df9b-0eb3-4373-982b-4c5913b62912/property/value - {}
+RESULT: {}
+COMMAND: POST /session/62575a18aef7166a764b30eacb1d04a9/element - {"using":"xpath","value":"//tbody/tr[4]/td[2]"}
+RESULT: {"using":"xpath","value":"//tbody/tr[4]/td[2]"}
+COMMAND: GET /session/62575a18aef7166a764b30eacb1d04a9/element/00801dcb-4327-44c5-abbd-9ad5d0e617a7/property/value - {}
+RESULT: {}
+COMMAND: POST /session/62575a18aef7166a764b30eacb1d04a9/element - {"using":"xpath","value":"//tbody/tr[4]/td[4]"}
+RESULT: {"using":"xpath","value":"//tbody/tr[4]/td[4]"}
+COMMAND: GET /session/62575a18aef7166a764b30eacb1d04a9/element/8d2b5bd5-1c9a-455a-a38c-65acb17f462d/text - {}
+RESULT: {}
+COMMAND: POST /session/62575a18aef7166a764b30eacb1d04a9/element - {"using":"xpath","value":"//tbody/tr[3]/td[3]"}
+RESULT: {"using":"xpath","value":"//tbody/tr[3]/td[3]"}
+COMMAND: GET /session/62575a18aef7166a764b30eacb1d04a9/element/fd0122e0-3abf-4dba-9e88-746ba64bbc5c/text - {}
+RESULT: {}
+COMMAND: POST /session/62575a18aef7166a764b30eacb1d04a9/element - {"using":"xpath","value":"//tbody/tr[4]/td[3]"}
+RESULT: {"using":"xpath","value":"//tbody/tr[4]/td[3]"}
+COMMAND: GET /session/62575a18aef7166a764b30eacb1d04a9/element/831e0e21-573b-41f0-ae59-f92b79a15d4e/text - {}
+RESULT: {}
+]]>
+      </system-out>
+    </testcase>
+    <testcase classname="chrome.88_0_4324_150.windows.Salesforce_E2E" name="should_delete_added_service" time="9.566">
+      <system-out>
+        <![CDATA[
+COMMAND: POST /session/62575a18aef7166a764b30eacb1d04a9/element - {"using":"xpath","value":"//tbody/tr[3]/td[6]/span[1]/div[1]"}
+RESULT: {"using":"xpath","value":"//tbody/tr[3]/td[6]/span[1]/div[1]"}
+COMMAND: POST /session/62575a18aef7166a764b30eacb1d04a9/element/7b0b5077-7651-43cf-98c6-16fcf0a96f7a/click - {}
+RESULT: {}
+COMMAND: POST /session/62575a18aef7166a764b30eacb1d04a9/actions - {"actions":[{"type":"key","id":"keyboard","actions":[{"type":"keyDown","value":""},{"type":"keyUp","value":""}]}]}
+RESULT: {"actions":[{"type":"key","id":"keyboard","actions":[{"type":"keyDown","value":""},{"type":"keyUp","value":""}]}]}
+COMMAND: DELETE /session/62575a18aef7166a764b30eacb1d04a9/actions - {}
+RESULT: {}
+COMMAND: POST /session/62575a18aef7166a764b30eacb1d04a9/actions - {"actions":[{"type":"key","id":"keyboard","actions":[{"type":"keyDown","value":""},{"type":"keyUp","value":""}]}]}
+RESULT: {"actions":[{"type":"key","id":"keyboard","actions":[{"type":"keyDown","value":""},{"type":"keyUp","value":""}]}]}
+COMMAND: DELETE /session/62575a18aef7166a764b30eacb1d04a9/actions - {}
+RESULT: {}
+COMMAND: POST /session/62575a18aef7166a764b30eacb1d04a9/actions - {"actions":[{"type":"key","id":"keyboard","actions":[{"type":"keyDown","value":""},{"type":"keyUp","value":""}]}]}
+RESULT: {"actions":[{"type":"key","id":"keyboard","actions":[{"type":"keyDown","value":""},{"type":"keyUp","value":""}]}]}
+COMMAND: DELETE /session/62575a18aef7166a764b30eacb1d04a9/actions - {}
+RESULT: {}
+COMMAND: POST /session/62575a18aef7166a764b30eacb1d04a9/element - {"using":"xpath","value":"//span[contains(text(),'Delete')]"}
+RESULT: {"using":"xpath","value":"//span[contains(text(),'Delete')]"}
+COMMAND: POST /session/62575a18aef7166a764b30eacb1d04a9/element/43f4c51e-41ab-4816-a836-e7220591a12c/click - {}
+RESULT: {}
+COMMAND: DELETE /session/62575a18aef7166a764b30eacb1d04a9 - {}
+RESULT: {}
+]]>
+      </system-out>
+    </testcase>
+  </testsuite>
+</testsuites>

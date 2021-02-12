@@ -1,3 +1,5 @@
+const { LEAD_COMPANY } = require('../utils/constants.js');
+
 var chai = require('chai'),
     assert = chai.assert,
     jsforce = require('jsforce'),
@@ -24,55 +26,50 @@ describe('Salesforce E2E', function () {
     
   });
 
-  it('should convert lead ', () => {    
+  it('should convert lead into account, contact and opportunity', () => {    
+    browser.pause(3000);
     const dropdown = $('//flexipage-record-home-with-subheader-template-desktop2/div[1]/div[1]/slot[1]/slot[1]/flexipage-component2[1]/slot[1]/records-lwc-highlights-panel[1]/records-lwc-record-layout[1]/forcegenerated-highlightspanel_lead___012000000000000aaa___compact___view___recordlayout2[1]/force-highlights2[1]/div[1]/div[1]/div[3]/div[1]/runtime_platform_actions-actions-ribbon[1]/ul[1]/li[4]/lightning-button-menu[1]');
-    browser.waitUntil(
-      () => dropdown.waitForExist({ timeout: 5000 }),
-      {
-          timeout: 5000,
-          timeoutMsg: 'expected element to exist after 5s'
-      }
-    )
 		dropdown.click();
-		const convert = dropdown.$("//div[1]/div[1]/slot[1]/runtime_platform_actions-action-renderer[6]/runtime_platform_actions-aura-legacy-action[1]/slot[1]/slot[1]/runtime_platform_actions-ribbon-menu-item[1]/a[1]/span[1]");
-    browser.waitUntil(
-      () => convert.waitForClickable({ timeout: 5000 }),
-      {
-          timeout: 5000,
-          timeoutMsg: 'expected element to exist after 5s'
-      }
-    )
-    convert.click();
+		browser.pause(3000);
+    browser.keys('\uE015');//Arrow down
+    browser.keys('\uE015');//Arrow down
+    browser.keys('\uE015');//Arrow down
+    browser.keys('\uE015');//Arrow down
+    browser.keys('\uE015');//Arrow down
+    browser.keys('\uE007');//Enter
+
+    browser.pause(3000);
+    
     $('/html[1]/body[1]/div[4]/div[2]/div[1]/div[2]/div[1]/div[3]/button[2]').click();
+    
     browser.waitUntil(
       () => $("//span[contains(text(),'Your lead has been converted')]").isExisting(),
       {
-        timeout: 30000,
-        timeoutMsg: 'expected element to exist after 30s'
+        timeout: 5000,
+        timeoutMsg: 'expected element to exist after 5s'
       }
     );
+
+    browser.pause(3000);
     
-    console.log('Lead coverted!');
+    console.log('Lead converted!');
   });
 
   it('should return created account, contact and opportunity',  () => {   
     getOpportunity(company);
-    //browser.debug();
-    var accountName = $('//flexipage-record-home-with-subheader-template-desktop2/div[1]/div[3]/div[1]/slot[1]/slot[1]/flexipage-component2[1]/slot[1]/flexipage-tabset2[1]/div[1]/lightning-tabset[1]/div[1]/slot[1]/slot[1]/slot[1]/flexipage-tab2[1]/slot[1]/flexipage-component2[1]/slot[1]/records-lwc-detail-panel[1]/records-base-record-form[1]/div[1]/div[1]/div[1]/div[1]/records-record-layout-event-broker[1]/slot[1]/records-lwc-record-layout[1]/forcegenerated-detailpanel_opportunity___012090000005zy0aam___full___view___recordlayout2[1]/force-record-layout-block[1]/slot[1]/force-record-layout-section[1]/div[1]/div[1]/div[1]/slot[1]/force-record-layout-row[4]/slot[1]/force-record-layout-item[1]/div[1]/div[1]/div[2]/span[1]/slot[1]/slot[1]/force-lookup[1]');
-    assert.strictEqual(company,accountName.getText());
+    
     getAccount(company);
-    accountName = $('//body/div[4]/div[1]/section[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[3]/div[1]/one-record-home-flexipage2[1]/forcegenerated-adgrollup_component___forcegenerated__flexipage_recordpage___account_record_page___account___view[1]/forcegenerated-flexipage_account_record_page_account__view_js[1]/record_flexipage-record-page-decorator[1]/div[1]/slot[1]/flexipage-record-home-template-desktop2[1]/div[1]/div[2]/div[1]/slot[1]/slot[1]/flexipage-component2[1]/slot[1]/flexipage-tabset2[1]/div[1]/lightning-tabset[1]/div[1]/slot[1]/slot[1]/slot[1]/flexipage-tab2[1]/slot[1]/flexipage-component2[1]/slot[1]/records-lwc-detail-panel[1]/records-base-record-form[1]/div[1]/div[1]/div[1]/div[1]/records-record-layout-event-broker[1]/slot[1]/records-lwc-record-layout[1]/forcegenerated-detailpanel_account___012000000000000aaa___full___view___recordlayout2[1]/force-record-layout-block[1]/slot[1]/force-record-layout-section[1]/div[1]/div[1]/div[1]/slot[1]/force-record-layout-row[2]/slot[1]/force-record-layout-item[1]/div[1]/div[1]/div[2]/span[1]/slot[1]/slot[1]/lightning-formatted-text[1]');
-    assert.strictEqual(company,accountName.getText());
+
     getContact(company);
-    accountName = $('//body/div[4]/div[1]/section[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[4]/div[1]/one-record-home-flexipage2[1]/forcegenerated-adgrollup_component___forcegenerated__flexipage_recordpage___contact_record_page___contact___view[1]/forcegenerated-flexipage_contact_record_page_contact__view_js[1]/record_flexipage-record-page-decorator[1]/div[1]/slot[1]/flexipage-record-home-template-desktop2[1]/div[1]/div[2]/div[1]/slot[1]/slot[1]/flexipage-component2[1]/slot[1]/flexipage-tabset2[1]/div[1]/lightning-tabset[1]/div[1]/slot[1]/slot[1]/slot[1]/flexipage-tab2[1]/slot[1]/flexipage-component2[1]/slot[1]/records-lwc-detail-panel[1]/records-base-record-form[1]/div[1]/div[1]/div[1]/div[1]/records-record-layout-event-broker[1]/slot[1]/records-lwc-record-layout[1]/forcegenerated-detailpanel_contact___012000000000000aaa___full___view___recordlayout2[1]/force-record-layout-block[1]/slot[1]/force-record-layout-section[1]/div[1]/div[1]/div[1]/slot[1]/force-record-layout-row[3]/slot[1]/force-record-layout-item[1]/div[1]/div[1]/div[2]/span[1]/slot[1]/slot[1]/force-lookup[1]/div[1]/force-hoverable-link[1]/div[1]/a[1]/span[1]');
-    assert.strictEqual(company,accountName.getText());
-   
+    browser.pause(3000);
+
   });
 
   
   it('should delete created account, contact and opportunity',  () => {   
-    deleteAccount(company)
-      .then(console.log('Test Complete'));
+    browser.pause(3000);
+    deleteAccount(company);
+    console.log('Test Complete');
    
   });
 
@@ -85,31 +82,12 @@ async function login() {
 
 }
 
-function goToNewAccount() {
-  return conn.describe("Account")
-      .then(meta => meta.urls['uiNewRecord'])
-      .then(url => browser.url(url));
-}
-
-function goToNewLead() {
-  return conn.describe("Lead")
-      .then(meta => meta.urls['uiNewRecord'])
-      .then(url => browser.url(url));
-}
-
-function getLead(name) {
-  return conn.query(`SELECT Id, Name FROM Lead WHERE Name = '${name}'`, function(err, result) {
-    if (err) { return console.error(err); }
-    console.log("total : " + result.totalSize);
-    console.log("fetched : " + result.records.length);
-  });
-}
-
 async function getAccount(name) {
   return await conn.sobject('Account')
   .find({ 'Name' : name}, function(err, rets) {
     if (err) { return console.error(err); }
     console.log(rets);
+    assert.strictEqual(rets[0].Name,LEAD_COMPANY);
     browser.url(`${conn.instanceUrl}/lightning/r/Account/${rets[0].Id}/view`);
   });
 }
@@ -119,6 +97,8 @@ async function getContact(name) {
   .find({ 'Account.Name' : name}, function(err, rets) {
     if (err) { return console.error(err); }
     console.log(rets);
+    assert.strictEqual(rets[0].FirstName,LEAD_FIRST_NAME);
+    assert.strictEqual(rets[0].LastName,LEAD_LAST_NAME);
     browser.url(`${conn.instanceUrl}/lightning/r/Contact/${rets[0].Id}/view`);
   });
 }
@@ -128,6 +108,7 @@ async function getOpportunity(name) {
   .find({ 'Account.Name' : name}, function(err, rets) {
     if (err) { return console.error(err); }
     console.log(rets);
+    assert.strictEqual(rets[0].Name,LEAD_COMPANY+'-');
     browser.url(`${conn.instanceUrl}/lightning/r/Opportunity/${rets[0].Id}/view`);
   });
 }
@@ -141,12 +122,12 @@ async function createNewLead(firstName, lastName, company) {
   })
 }
 
-function deleteAccount(name){
+async function deleteAccount(name){
 
-  return conn.query(`SELECT Id FROM Account WHERE Name = '${name}'`)
-  .destroy('Account', function(err, rets) {
+  return await conn.sobject('Account')
+  .find({ 'Name' : name })
+  .destroy(function(err, rets) {
     if (err) { return console.error(err); }
     console.log(rets);
-    // ...
-  });
+  })
 }
