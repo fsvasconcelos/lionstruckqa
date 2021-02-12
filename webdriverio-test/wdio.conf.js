@@ -140,6 +140,11 @@ exports.config = {
             outputFileFormat: function(options) { // optional
                 return `results-${options.cid}.${options.capabilities}.xml`
             }
+        }],
+        ['allure', {
+            outputDir: './allure-results',
+            disableWebdriverStepsReporting: true,
+            disableWebdriverScreenshotsReporting: true,
         }]
     ],    
     //

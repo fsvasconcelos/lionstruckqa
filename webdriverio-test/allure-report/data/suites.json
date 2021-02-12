@@ -1,0 +1,113 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "Salesforce E2E",
+    "children" : [ {
+      "name" : "should login",
+      "uid" : "2b9bb793656e5602",
+      "parentUid" : "87232bf9b0586ccb2f49cbff37c16795",
+      "status" : "passed",
+      "time" : {
+        "start" : 1613129565119,
+        "stop" : 1613129566784,
+        "duration" : 1665
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-88.0.4324.150" ]
+    }, {
+      "name" : "should create a new lead",
+      "uid" : "1bf730d00c8f3585",
+      "parentUid" : "87232bf9b0586ccb2f49cbff37c16795",
+      "status" : "passed",
+      "time" : {
+        "start" : 1613129566123,
+        "stop" : 1613129574153,
+        "duration" : 8030
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-88.0.4324.150" ]
+    }, {
+      "name" : "should return an opportunity with line items",
+      "uid" : "40d3b6c50cf23a6a",
+      "parentUid" : "87232bf9b0586ccb2f49cbff37c16795",
+      "status" : "passed",
+      "time" : {
+        "start" : 1613129566784,
+        "stop" : 1613129573730,
+        "duration" : 6946
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-88.0.4324.150" ]
+    }, {
+      "name" : "should add service in opportunity",
+      "uid" : "c4257d4e251aef05",
+      "parentUid" : "87232bf9b0586ccb2f49cbff37c16795",
+      "status" : "passed",
+      "time" : {
+        "start" : 1613129573730,
+        "stop" : 1613129590382,
+        "duration" : 16652
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-88.0.4324.150" ]
+    }, {
+      "name" : "should convert lead into account, contact and opportunity",
+      "uid" : "24df8a68610d5439",
+      "parentUid" : "87232bf9b0586ccb2f49cbff37c16795",
+      "status" : "passed",
+      "time" : {
+        "start" : 1613129574156,
+        "stop" : 1613129588407,
+        "duration" : 14251
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-88.0.4324.150" ]
+    }, {
+      "name" : "should return created account, contact and opportunity",
+      "uid" : "7799e2d85f9612e0",
+      "parentUid" : "87232bf9b0586ccb2f49cbff37c16795",
+      "status" : "passed",
+      "time" : {
+        "start" : 1613129588407,
+        "stop" : 1613129591412,
+        "duration" : 3005
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-88.0.4324.150" ]
+    }, {
+      "name" : "should delete added service",
+      "uid" : "81a629c353a09311",
+      "parentUid" : "87232bf9b0586ccb2f49cbff37c16795",
+      "status" : "passed",
+      "time" : {
+        "start" : 1613129590382,
+        "stop" : 1613129599832,
+        "duration" : 9450
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-88.0.4324.150" ]
+    }, {
+      "name" : "should delete created account, contact and opportunity",
+      "uid" : "c52dbb5635ee2f7a",
+      "parentUid" : "87232bf9b0586ccb2f49cbff37c16795",
+      "status" : "passed",
+      "time" : {
+        "start" : 1613129591412,
+        "stop" : 1613129594415,
+        "duration" : 3003
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-88.0.4324.150" ]
+    } ],
+    "uid" : "87232bf9b0586ccb2f49cbff37c16795"
+  } ]
+}

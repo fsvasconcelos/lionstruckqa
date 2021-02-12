@@ -10,6 +10,7 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@wdio/allure-reporter": "^7.0.3",
     "@wdio/cli": "^6.12.1",
     "@wdio/dot-reporter": "^6.11.0",
     "@wdio/junit-reporter": "^6.11.0",

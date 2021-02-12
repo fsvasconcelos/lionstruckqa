@@ -1,0 +1,81 @@
+[ {
+  "uid" : "1bf730d00c8f3585",
+  "name" : "should create a new lead",
+  "time" : {
+    "start" : 1613129566123,
+    "stop" : 1613129574153,
+    "duration" : 8030
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "81a629c353a09311",
+  "name" : "should delete added service",
+  "time" : {
+    "start" : 1613129590382,
+    "stop" : 1613129599832,
+    "duration" : 9450
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c52dbb5635ee2f7a",
+  "name" : "should delete created account, contact and opportunity",
+  "time" : {
+    "start" : 1613129591412,
+    "stop" : 1613129594415,
+    "duration" : 3003
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7799e2d85f9612e0",
+  "name" : "should return created account, contact and opportunity",
+  "time" : {
+    "start" : 1613129588407,
+    "stop" : 1613129591412,
+    "duration" : 3005
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "40d3b6c50cf23a6a",
+  "name" : "should return an opportunity with line items",
+  "time" : {
+    "start" : 1613129566784,
+    "stop" : 1613129573730,
+    "duration" : 6946
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "24df8a68610d5439",
+  "name" : "should convert lead into account, contact and opportunity",
+  "time" : {
+    "start" : 1613129574156,
+    "stop" : 1613129588407,
+    "duration" : 14251
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2b9bb793656e5602",
+  "name" : "should login",
+  "time" : {
+    "start" : 1613129565119,
+    "stop" : 1613129566784,
+    "duration" : 1665
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c4257d4e251aef05",
+  "name" : "should add service in opportunity",
+  "time" : {
+    "start" : 1613129573730,
+    "stop" : 1613129590382,
+    "duration" : 16652
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

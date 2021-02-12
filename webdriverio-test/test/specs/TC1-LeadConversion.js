@@ -1,5 +1,3 @@
-const { LEAD_COMPANY } = require('../utils/constants.js');
-
 var chai = require('chai'),
     assert = chai.assert,
     jsforce = require('jsforce'),
@@ -60,7 +58,7 @@ describe('Salesforce E2E', function () {
     
     getAccount(company);
 
-    getContact(company);
+    getContact(company, firstName, lastName);
     browser.pause(3000);
 
   });
@@ -87,18 +85,18 @@ async function getAccount(name) {
   .find({ 'Name' : name}, function(err, rets) {
     if (err) { return console.error(err); }
     console.log(rets);
-    assert.strictEqual(rets[0].Name,LEAD_COMPANY);
+    assert.strictEqual(rets[0].Name,name);
     browser.url(`${conn.instanceUrl}/lightning/r/Account/${rets[0].Id}/view`);
   });
 }
 
-async function getContact(name) {
+async function getContact(name, firstName, lastName) {
   return await conn.sobject('Contact')
   .find({ 'Account.Name' : name}, function(err, rets) {
     if (err) { return console.error(err); }
     console.log(rets);
-    assert.strictEqual(rets[0].FirstName,LEAD_FIRST_NAME);
-    assert.strictEqual(rets[0].LastName,LEAD_LAST_NAME);
+    assert.strictEqual(rets[0].FirstName,firstName);
+    assert.strictEqual(rets[0].LastName,lastName);
     browser.url(`${conn.instanceUrl}/lightning/r/Contact/${rets[0].Id}/view`);
   });
 }
@@ -108,7 +106,7 @@ async function getOpportunity(name) {
   .find({ 'Account.Name' : name}, function(err, rets) {
     if (err) { return console.error(err); }
     console.log(rets);
-    assert.strictEqual(rets[0].Name,LEAD_COMPANY+'-');
+    assert.strictEqual(rets[0].Name,name+'-');
     browser.url(`${conn.instanceUrl}/lightning/r/Opportunity/${rets[0].Id}/view`);
   });
 }
