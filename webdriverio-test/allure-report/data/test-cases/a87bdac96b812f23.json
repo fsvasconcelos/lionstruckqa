@@ -1,0 +1,56 @@
+{
+  "uid" : "a87bdac96b812f23",
+  "name" : "should update opportunity stage",
+  "fullName" : "Salesforce E2E.should update opportunity stage",
+  "historyId" : "3f44bf2263ca122e4ff4846aac2e40ce",
+  "time" : {
+    "start" : 1613156575409,
+    "stop" : 1613156578413,
+    "duration" : 3004
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Salesforce E2E"
+  }, {
+    "name" : "testClass",
+    "value" : "Salesforce E2E"
+  }, {
+    "name" : "testMethod",
+    "value" : "should update opportunity stage"
+  }, {
+    "name" : "package",
+    "value" : "Salesforce E2E"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-88.0.4324.150"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "a87bdac96b812f23.json",
+  "parameterValues" : [ "chrome-88.0.4324.150" ]
+}

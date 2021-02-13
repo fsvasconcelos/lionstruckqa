@@ -1,0 +1,109 @@
+{
+  "uid" : "da1cbaa7b6ce0e3c",
+  "name" : "should return order and assets",
+  "fullName" : "Salesforce E2E.should return order and assets",
+  "historyId" : "af1f47570f6b8171be0552554c75a4d7",
+  "time" : {
+    "start" : 1613176516795,
+    "stop" : 1613176534837,
+    "duration" : 18042
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-3"
+  }, {
+    "name" : "suite",
+    "value" : "Salesforce E2E"
+  }, {
+    "name" : "testClass",
+    "value" : "Salesforce E2E"
+  }, {
+    "name" : "testMethod",
+    "value" : "should return order and assets"
+  }, {
+    "name" : "package",
+    "value" : "Salesforce E2E"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-88.0.4324.150"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "e6797bb4c8222cd2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1613176315333,
+        "stop" : 1613176333370,
+        "duration" : 18037
+      }
+    }, {
+      "uid" : "ba1c1a90a81feaf8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1613175551852,
+        "stop" : 1613175569885,
+        "duration" : 18033
+      }
+    }, {
+      "uid" : "7d9e40b049bf486b",
+      "status" : "broken",
+      "statusDetails" : "Cannot read property 'id' of undefined",
+      "time" : {
+        "start" : 1613174542251,
+        "stop" : 1613174558159,
+        "duration" : 15908
+      }
+    }, {
+      "uid" : "40c85e183b696bec",
+      "status" : "broken",
+      "statusDetails" : "Cannot read property 'id' of undefined",
+      "time" : {
+        "start" : 1613174383806,
+        "stop" : 1613174398987,
+        "duration" : 15181
+      }
+    }, {
+      "uid" : "34ceba0aa7073000",
+      "status" : "passed",
+      "time" : {
+        "start" : 1613173648667,
+        "stop" : 1613173666709,
+        "duration" : 18042
+      }
+    }, {
+      "uid" : "8bd51f98c25a9a12",
+      "status" : "broken",
+      "statusDetails" : "performancetotal.sampleStart is not a function",
+      "time" : {
+        "start" : 1613173261856,
+        "stop" : 1613173273886,
+        "duration" : 12030
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "da1cbaa7b6ce0e3c.json",
+  "parameterValues" : [ "chrome-88.0.4324.150" ]
+}

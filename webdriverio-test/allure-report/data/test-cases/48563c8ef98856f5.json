@@ -1,0 +1,58 @@
+{
+  "uid" : "48563c8ef98856f5",
+  "name" : "should update quantity of service accordingly",
+  "fullName" : "Salesforce E2E.should update quantity of service accordingly",
+  "historyId" : "d87ae972217bf6b1e441c1e410baca8f",
+  "time" : {
+    "start" : 1613147739875,
+    "stop" : 1613147744097,
+    "duration" : 4222
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "element click intercepted: Element <div title=\"...\" data-aura-rendered-by=\"840:0\">Edit Products</div> is not clickable at point (686, 135). Other element would receive the click: <div class=\"modal-header slds-modal__header\" data-aura-rendered-by=\"1190:0\">...</div>\n                  (Session info: chrome=88.0.4324.150)",
+  "statusTrace" : "element click intercepted: Element <div title=\"...\" data-aura-rendered-by=\"840:0\">Edit Products</div> is not clickable at point (686, 135). Other element would receive the click: <div class=\"modal-header slds-modal__header\" data-aura-rendered-by=\"1190:0\">...</div>\n                  (Session info: chrome=88.0.4324.150)\n                    at Object.getErrorFromResponseBody (C:\\Source\\lionstruckqa\\webdriverio-test\\node_modules\\webdriver\\build\\utils.js:94:12)\n                    at WebDriverRequest._request (C:\\Source\\lionstruckqa\\webdriverio-test\\node_modules\\webdriver\\build\\request.js:134:31)\n                    at processTicksAndRejections (internal/process/task_queues.js:93:5)\n                    at async Element.elementErrorHandlerCallbackFn (C:\\Source\\lionstruckqa\\webdriverio-test\\node_modules\\webdriverio\\build\\middlewares.js:17:32)\n                    at async Element.runCommandWithHooks (C:\\Source\\lionstruckqa\\webdriverio-test\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:70:25)\n                    at Element.runCommandWithHooks (C:\\Source\\lionstruckqa\\webdriverio-test\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:65:24)\n                    at Element.wrapCommandFn (C:\\Source\\lionstruckqa\\webdriverio-test\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:44:44)\n                    at Element.elementErrorHandlerCallback (C:\\Source\\lionstruckqa\\webdriverio-test\\node_modules\\webdriverio\\build\\middlewares.js:34:12)\n                    at Context.<anonymous> (C:\\Source\\lionstruckqa\\webdriverio-test\\test\\specs\\TC3-ManageSubscriptionProducts.js:47:17)\n                    at Context.executeSync (C:\\Source\\lionstruckqa\\webdriverio-test\\node_modules\\@wdio\\sync\\build\\index.js:25:22)\n                    at C:\\Source\\lionstruckqa\\webdriverio-test\\node_modules\\@wdio\\sync\\build\\index.js:46:68",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Salesforce E2E"
+  }, {
+    "name" : "testClass",
+    "value" : "Salesforce E2E"
+  }, {
+    "name" : "testMethod",
+    "value" : "should update quantity of service accordingly"
+  }, {
+    "name" : "package",
+    "value" : "Salesforce E2E"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-88.0.4324.150"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "48563c8ef98856f5.json",
+  "parameterValues" : [ "chrome-88.0.4324.150" ]
+}

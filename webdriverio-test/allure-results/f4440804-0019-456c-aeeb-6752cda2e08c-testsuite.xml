@@ -1,0 +1,111 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1613145788765' stop='1613145815702'>
+    <name>Salesforce E2E</name>
+    <title>Salesforce E2E</title>
+    <test-cases>
+        <test-case start='1613145788766' status='passed' stop='1613145792404'>
+            <name>should login</name>
+            <title>should login</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-88.0.4324.150'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1613145792405' status='passed' stop='1613145796812'>
+            <name>should return an opportunity with line items</name>
+            <title>should return an opportunity with line items</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-88.0.4324.150'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1613145796813' status='passed' stop='1613145807257'>
+            <name>should not allow change quantity of service</name>
+            <title>should not allow change quantity of service</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-88.0.4324.150'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1613145807257' status='broken' stop='1613145811462'>
+            <name>should update quantity of service accordingly</name>
+            <title>should update quantity of service accordingly</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-88.0.4324.150'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>element click intercepted: Element &lt;div title="..." data-aura-rendered-by="840:0">Edit Products&lt;/div> is not clickable at point (686, 135). Other element would receive the click: &lt;div class="modal-header slds-modal__header" data-aura-rendered-by="1192:0">...&lt;/div>
+                  (Session info: chrome=88.0.4324.150)</message>
+                <stack-trace>element click intercepted: Element &lt;div title="..." data-aura-rendered-by="840:0">Edit Products&lt;/div> is not clickable at point (686, 135). Other element would receive the click: &lt;div class="modal-header slds-modal__header" data-aura-rendered-by="1192:0">...&lt;/div>
+                  (Session info: chrome=88.0.4324.150)
+                    at Object.getErrorFromResponseBody (C:\Source\lionstruckqa\webdriverio-test\node_modules\webdriver\build\utils.js:94:12)
+                    at WebDriverRequest._request (C:\Source\lionstruckqa\webdriverio-test\node_modules\webdriver\build\request.js:134:31)
+                    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+                    at async Element.elementErrorHandlerCallbackFn (C:\Source\lionstruckqa\webdriverio-test\node_modules\webdriverio\build\middlewares.js:17:32)
+                    at async Element.runCommandWithHooks (C:\Source\lionstruckqa\webdriverio-test\node_modules\@wdio\sync\build\wrapCommand.js:70:25)
+                    at Element.runCommandWithHooks (C:\Source\lionstruckqa\webdriverio-test\node_modules\@wdio\sync\build\wrapCommand.js:65:24)
+                    at Element.wrapCommandFn (C:\Source\lionstruckqa\webdriverio-test\node_modules\@wdio\sync\build\wrapCommand.js:44:44)
+                    at Element.elementErrorHandlerCallback (C:\Source\lionstruckqa\webdriverio-test\node_modules\webdriverio\build\middlewares.js:34:12)
+                    at Context.&lt;anonymous> (C:\Source\lionstruckqa\webdriverio-test\test\specs\TC3-ManageSubscriptionProducts.js:54:17)
+                    at Context.executeSync (C:\Source\lionstruckqa\webdriverio-test\node_modules\@wdio\sync\build\index.js:25:22)
+                    at C:\Source\lionstruckqa\webdriverio-test\node_modules\@wdio\sync\build\index.js:46:68</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1613145811462' status='broken' stop='1613145815701'>
+            <name>should delete added service</name>
+            <title>should delete added service</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-88.0.4324.150'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>element click intercepted: Element &lt;div title="..." data-aura-rendered-by="840:0">Edit Products&lt;/div> is not clickable at point (686, 135). Other element would receive the click: &lt;div class="modal-header slds-modal__header" data-aura-rendered-by="1192:0">...&lt;/div>
+                  (Session info: chrome=88.0.4324.150)</message>
+                <stack-trace>element click intercepted: Element &lt;div title="..." data-aura-rendered-by="840:0">Edit Products&lt;/div> is not clickable at point (686, 135). Other element would receive the click: &lt;div class="modal-header slds-modal__header" data-aura-rendered-by="1192:0">...&lt;/div>
+                  (Session info: chrome=88.0.4324.150)
+                    at Object.getErrorFromResponseBody (C:\Source\lionstruckqa\webdriverio-test\node_modules\webdriver\build\utils.js:94:12)
+                    at WebDriverRequest._request (C:\Source\lionstruckqa\webdriverio-test\node_modules\webdriver\build\request.js:134:31)
+                    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+                    at async Element.elementErrorHandlerCallbackFn (C:\Source\lionstruckqa\webdriverio-test\node_modules\webdriverio\build\middlewares.js:17:32)
+                    at async Element.runCommandWithHooks (C:\Source\lionstruckqa\webdriverio-test\node_modules\@wdio\sync\build\wrapCommand.js:70:25)
+                    at Element.runCommandWithHooks (C:\Source\lionstruckqa\webdriverio-test\node_modules\@wdio\sync\build\wrapCommand.js:65:24)
+                    at Element.wrapCommandFn (C:\Source\lionstruckqa\webdriverio-test\node_modules\@wdio\sync\build\wrapCommand.js:44:44)
+                    at Element.elementErrorHandlerCallback (C:\Source\lionstruckqa\webdriverio-test\node_modules\webdriverio\build\middlewares.js:34:12)
+                    at Context.&lt;anonymous> (C:\Source\lionstruckqa\webdriverio-test\test\specs\TC3-ManageSubscriptionProducts.js:88:17)
+                    at Context.executeSync (C:\Source\lionstruckqa\webdriverio-test\node_modules\@wdio\sync\build\index.js:25:22)
+                    at C:\Source\lionstruckqa\webdriverio-test\node_modules\@wdio\sync\build\index.js:46:68</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

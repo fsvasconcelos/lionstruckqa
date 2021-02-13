@@ -1,0 +1,26 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "Service is not 10% of the truck price!: expected 29.999962500046873 to equal 10",
+      "children" : [ {
+        "name" : "should update quantity of service accordingly",
+        "uid" : "c7d1f6ba22840487",
+        "parentUid" : "e468a886ee0ebfa2c358bec6f62df8e9",
+        "status" : "failed",
+        "time" : {
+          "start" : 1613176449814,
+          "stop" : 1613176457177,
+          "duration" : 7363
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chrome-88.0.4324.150" ]
+      } ],
+      "uid" : "e468a886ee0ebfa2c358bec6f62df8e9"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}
