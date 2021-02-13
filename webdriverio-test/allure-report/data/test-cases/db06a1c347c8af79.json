@@ -1,0 +1,58 @@
+{
+  "uid" : "db06a1c347c8af79",
+  "name" : "should delete added service",
+  "fullName" : "Salesforce E2E.should delete added service",
+  "historyId" : "65d493fbed8289859bb79597d9f97f7a",
+  "time" : {
+    "start" : 1613174375073,
+    "stop" : 1613174385107,
+    "duration" : 10034
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "Can't call click on element with selector \"//div[contains(text(),'Edit Products')]\" because element wasn't found",
+  "statusTrace" : "Error: Can't call click on element with selector \"//div[contains(text(),'Edit Products')]\" because element wasn't found\n                    at Object.implicitWait [as default] (C:\\Source\\lionstruckqa\\webdriverio-test\\node_modules\\webdriverio\\build\\utils\\implicitWait.js:26:19)\n                    at async Element.elementErrorHandlerCallbackFn (C:\\Source\\lionstruckqa\\webdriverio-test\\node_modules\\webdriverio\\build\\middlewares.js:13:29)\n                    at async Element.runCommandWithHooks (C:\\Source\\lionstruckqa\\webdriverio-test\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:70:25)\n                    at Element.runCommandWithHooks (C:\\Source\\lionstruckqa\\webdriverio-test\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:65:24)\n                    at Element.wrapCommandFn (C:\\Source\\lionstruckqa\\webdriverio-test\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:44:44)\n                    at Element.elementErrorHandlerCallback (C:\\Source\\lionstruckqa\\webdriverio-test\\node_modules\\webdriverio\\build\\middlewares.js:34:12)\n                    at Context.<anonymous> (C:\\Source\\lionstruckqa\\webdriverio-test\\test\\specs\\TC3-ManageSubscriptionProducts.js:91:17)\n                    at Context.executeSync (C:\\Source\\lionstruckqa\\webdriverio-test\\node_modules\\@wdio\\sync\\build\\index.js:25:22)\n                    at C:\\Source\\lionstruckqa\\webdriverio-test\\node_modules\\@wdio\\sync\\build\\index.js:46:68",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-2"
+  }, {
+    "name" : "suite",
+    "value" : "Salesforce E2E"
+  }, {
+    "name" : "testClass",
+    "value" : "Salesforce E2E"
+  }, {
+    "name" : "testMethod",
+    "value" : "should delete added service"
+  }, {
+    "name" : "package",
+    "value" : "Salesforce E2E"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-88.0.4324.150"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "db06a1c347c8af79.json",
+  "parameterValues" : [ "chrome-88.0.4324.150" ]
+}

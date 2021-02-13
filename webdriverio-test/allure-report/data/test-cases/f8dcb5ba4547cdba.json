@@ -1,0 +1,310 @@
+{
+  "uid" : "f8dcb5ba4547cdba",
+  "name" : "should add quote",
+  "fullName" : "Salesforce E2E.should add quote",
+  "historyId" : "d7beddb843672f19747e1c1254f8bcf3",
+  "time" : {
+    "start" : 1613176485316,
+    "stop" : 1613176504757,
+    "duration" : 19441
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-3"
+  }, {
+    "name" : "suite",
+    "value" : "Salesforce E2E"
+  }, {
+    "name" : "testClass",
+    "value" : "Salesforce E2E"
+  }, {
+    "name" : "testMethod",
+    "value" : "should add quote"
+  }, {
+    "name" : "package",
+    "value" : "Salesforce E2E"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-88.0.4324.150"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "d11933067211f75f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1613176283439,
+        "stop" : 1613176303305,
+        "duration" : 19866
+      }
+    }, {
+      "uid" : "9b68058e437b44d4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1613175520097,
+        "stop" : 1613175539803,
+        "duration" : 19706
+      }
+    }, {
+      "uid" : "25279abd360a9d8e",
+      "status" : "broken",
+      "statusDetails" : "Can't call click on element with selector \"//div[contains(text(),'New Quote')]\" because element wasn't found",
+      "time" : {
+        "start" : 1613174510858,
+        "stop" : 1613174530203,
+        "duration" : 19345
+      }
+    }, {
+      "uid" : "c4c2dfda591de98c",
+      "status" : "broken",
+      "statusDetails" : "Can't call click on element with selector \"//div[contains(text(),'New Quote')]\" because element wasn't found",
+      "time" : {
+        "start" : 1613174357996,
+        "stop" : 1613174374145,
+        "duration" : 16149
+      }
+    }, {
+      "uid" : "84e8c48565b9f9c5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1613173616952,
+        "stop" : 1613173636631,
+        "duration" : 19679
+      }
+    }, {
+      "uid" : "a3e98efb2d73739a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1613173220961,
+        "stop" : 1613173249399,
+        "duration" : 28438
+      }
+    }, {
+      "uid" : "26f64c76a4cbf980",
+      "status" : "passed",
+      "time" : {
+        "start" : 1613162786644,
+        "stop" : 1613162814661,
+        "duration" : 28017
+      }
+    }, {
+      "uid" : "5d6a88cc23f28b6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1613162683616,
+        "stop" : 1613162712924,
+        "duration" : 29308
+      }
+    }, {
+      "uid" : "b845282e69101179",
+      "status" : "passed",
+      "time" : {
+        "start" : 1613162521160,
+        "stop" : 1613162540367,
+        "duration" : 19207
+      }
+    }, {
+      "uid" : "ba6425a6dda3ec06",
+      "status" : "passed",
+      "time" : {
+        "start" : 1613162466286,
+        "stop" : 1613162485450,
+        "duration" : 19164
+      }
+    }, {
+      "uid" : "7e33c19b8b63f94d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1613162404480,
+        "stop" : 1613162422521,
+        "duration" : 18041
+      }
+    }, {
+      "uid" : "4ccb2df5d02a277f",
+      "status" : "broken",
+      "statusDetails" : "document is not defined",
+      "time" : {
+        "start" : 1613161716684,
+        "stop" : 1613161730663,
+        "duration" : 13979
+      }
+    }, {
+      "uid" : "d9ecbfa102116de1",
+      "status" : "broken",
+      "statusDetails" : "invalid element state: Failed to execute 'querySelectorAll' on 'Element': '//div[5]/div[2]/div[1]/div[2]/div[1]/div[2]/div[1]/div[1]/div[2]/div[1]/div[1]/div[2]/button[3]' is not a valid selector.\n                  (Session info: chrome=88.0.4324.150)",
+      "time" : {
+        "start" : 1613161573389,
+        "stop" : 1613161587565,
+        "duration" : 14176
+      }
+    }, {
+      "uid" : "3c8887762400760",
+      "status" : "broken",
+      "statusDetails" : "Can't call click on element with selector \"function() {\n                      // element has a shadowRoot property\n                      if (this.shadowRoot) {\n                        return this.shadowRoot.querySelector('[title=\"save\"]')\n                      }\n                      // fall back to querying the element directly if not\n                      return this.querySelector('[title=\"save\"]')\n                    }\" because element wasn't found",
+      "time" : {
+        "start" : 1613161457057,
+        "stop" : 1613161482763,
+        "duration" : 25706
+      }
+    }, {
+      "uid" : "173e44474ad888e1",
+      "status" : "broken",
+      "statusDetails" : "Can't call shadow$ on element with selector \"//body/div[5]/div[2]/div[1]/div[2]/div[1]/div[2]/div[1]\" because element wasn't found",
+      "time" : {
+        "start" : 1613161308779,
+        "stop" : 1613161333069,
+        "duration" : 24290
+      }
+    }, {
+      "uid" : "6e2b872eaca4d175",
+      "status" : "broken",
+      "statusDetails" : "shadow$ is not defined",
+      "time" : {
+        "start" : 1613160595509,
+        "stop" : 1613160611346,
+        "duration" : 15837
+      }
+    }, {
+      "uid" : "13401255be75a89e",
+      "status" : "broken",
+      "statusDetails" : "Can't call click on element with selector \"[title=\"save\"]\" because element wasn't found",
+      "time" : {
+        "start" : 1613160546948,
+        "stop" : 1613160571405,
+        "duration" : 24457
+      }
+    }, {
+      "uid" : "d25477d8ca34a87c",
+      "status" : "broken",
+      "statusDetails" : "Can't call click on element with selector \"//body/div[5]/div[2]/div[1]/div[2]/div[1]/div[2]/div[1]/div[1]/div[2]/div[1]/div[1]/div[2]/button[3]\" because element wasn't found",
+      "time" : {
+        "start" : 1613160409198,
+        "stop" : 1613160432718,
+        "duration" : 23520
+      }
+    }, {
+      "uid" : "909274a61525c0d3",
+      "status" : "broken",
+      "statusDetails" : "Can't call click on element with selector \"//body/div[5]/div[2]/div[1]/div[2]/div[1]/div[2]/div[1]/div[1]/div[2]/div[1]/div[1]/div[2]/button[3]/span[1]\" because element wasn't found",
+      "time" : {
+        "start" : 1613160341984,
+        "stop" : 1613160365961,
+        "duration" : 23977
+      }
+    }, {
+      "uid" : "cf80696470e9a943",
+      "status" : "broken",
+      "statusDetails" : "Can't call click on element with selector \"//body/div[5]/div[2]/div[1]/div[2]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/article[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[2]/span[1]/span[1]/img[1]\" because element wasn't found",
+      "time" : {
+        "start" : 1613160268619,
+        "stop" : 1613160293150,
+        "duration" : 24531
+      }
+    }, {
+      "uid" : "5c25cb9f60e06472",
+      "status" : "broken",
+      "statusDetails" : "Can't call setValue on element with selector \"//*[@id=\"8:2203;a\"]/div/div[2]/div[1]\" because element wasn't found",
+      "time" : {
+        "start" : 1613160045439,
+        "stop" : 1613160065370,
+        "duration" : 19931
+      }
+    }, {
+      "uid" : "c5b96b278b57d1c8",
+      "status" : "broken",
+      "statusDetails" : "Can't call setValue on element with selector \"//input[@id='55:2203;a']\" because element wasn't found",
+      "time" : {
+        "start" : 1613157506735,
+        "stop" : 1613157527616,
+        "duration" : 20881
+      }
+    }, {
+      "uid" : "c85011a4194d98d5",
+      "status" : "broken",
+      "statusDetails" : "Can't call setValue on element with selector \"//body/div[5]/div[2]/div[1]/div[2]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/article[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]\" because element wasn't found",
+      "time" : {
+        "start" : 1613157441219,
+        "stop" : 1613157462385,
+        "duration" : 21166
+      }
+    }, {
+      "uid" : "9ee91ca94bba3c7a",
+      "status" : "broken",
+      "statusDetails" : "Can't call click on element with selector \"//body/div[5]/div[2]/div[1]/div[2]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/article[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[2]/span[1]/span[1]/img[1]\" because element wasn't found",
+      "time" : {
+        "start" : 1613157245968,
+        "stop" : 1613157268281,
+        "duration" : 22313
+      }
+    }, {
+      "uid" : "3d32a8eefd8c18ab",
+      "status" : "broken",
+      "statusDetails" : "Can't call setValue on element with selector \"//body/div[5]/div[2]/div[1]/div[2]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/article[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]\" because element wasn't found",
+      "time" : {
+        "start" : 1613157022504,
+        "stop" : 1613157041935,
+        "duration" : 19431
+      }
+    }, {
+      "uid" : "d56cb70ce1962b31",
+      "status" : "broken",
+      "statusDetails" : "Can't call click on element with selector \"//flexipage-record-home-with-subheader-template-desktop2/div[1]/div[3]/div[2]/slot[1]/slot[1]/flexipage-component2[1]/slot[1]/flexipage-tabset2[1]/div[1]/lightning-tabset[1]/div[1]/slot[1]/slot[1]/slot[1]/flexipage-tab2[1]/slot[1]/flexipage-component2[1]/slot[1]/flexipage-aura-wrapper[1]/div[1]/div[1]/div[1]/div[3]/article[1]/div[1]/div[1]/div[1]/ul[1]/li[1]/div[1]/div[1]/div[1]/div[1]/a[1]\" because element wasn't found",
+      "time" : {
+        "start" : 1613156695861,
+        "stop" : 1613156706089,
+        "duration" : 10228
+      }
+    }, {
+      "uid" : "69069defb8dbad67",
+      "status" : "broken",
+      "statusDetails" : "Can't call click on element with selector \"//flexipage-record-home-with-subheader-template-desktop2/div[1]/div[3]/div[2]/slot[1]/slot[1]/flexipage-component2[1]/slot[1]/flexipage-tabset2[1]/div[1]/lightning-tabset[1]/div[1]/slot[1]/slot[1]/slot[1]/flexipage-tab2[1]/slot[1]/flexipage-component2[1]/slot[1]/flexipage-aura-wrapper[1]/div[1]/div[1]/div[1]/div[3]/article[1]/div[1]/div[1]/div[1]/ul[1]/li[1]/div[1]/div[1]/div[1]/div[1]/a[1]\" because element wasn't found",
+      "time" : {
+        "start" : 1613156578413,
+        "stop" : 1613156588502,
+        "duration" : 10089
+      }
+    }, {
+      "uid" : "a79238a664ce7093",
+      "status" : "broken",
+      "statusDetails" : "Can't call click on element with selector \"//flexipage-record-home-with-subheader-template-desktop2/div[1]/div[3]/div[2]/slot[1]/slot[1]/flexipage-component2[1]/slot[1]/flexipage-tabset2[1]/div[1]/lightning-tabset[1]/div[1]/slot[1]/slot[1]/slot[1]/flexipage-tab2[1]/slot[1]/flexipage-component2[1]/slot[1]/flexipage-aura-wrapper[1]/div[1]/div[1]/div[1]/div[3]/article[1]/div[1]/div[1]/div[1]/ul[1]/li[1]/div[1]/div[1]/div[1]/div[1]/a[1]\" because element wasn't found",
+      "time" : {
+        "start" : 1613156435032,
+        "stop" : 1613156445062,
+        "duration" : 10030
+      }
+    }, {
+      "uid" : "6c93ea47ddb9148a",
+      "status" : "broken",
+      "statusDetails" : "Can't call click on element with selector \"//flexipage-record-home-with-subheader-template-desktop2/div[1]/div[3]/div[2]/slot[1]/slot[1]/flexipage-component2[1]/slot[1]/flexipage-tabset2[1]/div[1]/lightning-tabset[1]/div[1]/slot[1]/slot[1]/slot[1]/flexipage-tab2[1]/slot[1]/flexipage-component2[1]/slot[1]/flexipage-aura-wrapper[1]/div[1]/div[1]/div[1]/div[3]/article[1]/div[1]/div[1]/div[1]/ul[1]/li[1]/div[1]/div[1]/div[1]/div[1]/a[1]\" because element wasn't found",
+      "time" : {
+        "start" : 1613155973259,
+        "stop" : 1613155983283,
+        "duration" : 10024
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "f8dcb5ba4547cdba.json",
+  "parameterValues" : [ "chrome-88.0.4324.150" ]
+}

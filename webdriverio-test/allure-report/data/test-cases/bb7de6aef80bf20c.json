@@ -1,0 +1,56 @@
+{
+  "uid" : "bb7de6aef80bf20c",
+  "name" : "should update quote",
+  "fullName" : "Salesforce E2E.should update quote",
+  "historyId" : "eeb44502b2e27247aa02a7aeb392f32b",
+  "time" : {
+    "start" : 1613174536226,
+    "stop" : 1613174542250,
+    "duration" : 6024
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-3"
+  }, {
+    "name" : "suite",
+    "value" : "Salesforce E2E"
+  }, {
+    "name" : "testClass",
+    "value" : "Salesforce E2E"
+  }, {
+    "name" : "testMethod",
+    "value" : "should update quote"
+  }, {
+    "name" : "package",
+    "value" : "Salesforce E2E"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-88.0.4324.150"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "bb7de6aef80bf20c.json",
+  "parameterValues" : [ "chrome-88.0.4324.150" ]
+}

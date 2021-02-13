@@ -1,0 +1,58 @@
+{
+  "uid" : "a71a7192fb167a8b",
+  "name" : "should update quantity of service accordingly",
+  "fullName" : "Salesforce E2E.should update quantity of service accordingly",
+  "historyId" : "d87ae972217bf6b1e441c1e410baca8f",
+  "time" : {
+    "start" : 1613174626704,
+    "stop" : 1613174626710,
+    "duration" : 6
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "connect ECONNREFUSED 127.0.0.1:9515",
+  "statusTrace" : "RequestError: connect ECONNREFUSED 127.0.0.1:9515\n                    at ClientRequest.<anonymous> (C:\\Source\\lionstruckqa\\webdriverio-test\\node_modules\\got\\dist\\source\\core\\index.js:953:111)\n                    at ClientRequest.origin.emit (C:\\Source\\lionstruckqa\\webdriverio-test\\node_modules\\@szmarczak\\http-timer\\dist\\source\\index.js:39:20)\n                    at Socket.socketErrorListener (_http_client.js:469:9)\n                    at emitErrorNT (internal/streams/destroy.js:106:8)\n                    at emitErrorCloseNT (internal/streams/destroy.js:74:3)\n                    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1146:16)\n                    at Browser.runCommandWithHooks (C:\\Source\\lionstruckqa\\webdriverio-test\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:65:24)\n                    at Browser.wrapCommandFn (C:\\Source\\lionstruckqa\\webdriverio-test\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:44:44)\n                    at global.$ (C:\\Source\\lionstruckqa\\webdriverio-test\\node_modules\\@wdio\\runner\\build\\index.js:114:42)\n                    at Context.<anonymous> (C:\\Source\\lionstruckqa\\webdriverio-test\\test\\specs\\TC3-ManageSubscriptionProducts.js:56:25)\n                    at Context.executeSync (C:\\Source\\lionstruckqa\\webdriverio-test\\node_modules\\@wdio\\sync\\build\\index.js:25:22)\n                    at C:\\Source\\lionstruckqa\\webdriverio-test\\node_modules\\@wdio\\sync\\build\\index.js:46:68",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-2"
+  }, {
+    "name" : "suite",
+    "value" : "Salesforce E2E"
+  }, {
+    "name" : "testClass",
+    "value" : "Salesforce E2E"
+  }, {
+    "name" : "testMethod",
+    "value" : "should update quantity of service accordingly"
+  }, {
+    "name" : "package",
+    "value" : "Salesforce E2E"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-88.0.4324.150"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "a71a7192fb167a8b.json",
+  "parameterValues" : [ "chrome-88.0.4324.150" ]
+}

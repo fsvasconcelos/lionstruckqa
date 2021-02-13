@@ -1,0 +1,282 @@
+{
+  "uid" : "69b4bcf4b90be5ba",
+  "name" : "should not allow change quantity of service",
+  "fullName" : "Salesforce E2E.should not allow change quantity of service",
+  "historyId" : "7b19eeb774050ab25e1d3af726e92d37",
+  "time" : {
+    "start" : 1613176441625,
+    "stop" : 1613176449814,
+    "duration" : 8189
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-2"
+  }, {
+    "name" : "suite",
+    "value" : "Salesforce E2E"
+  }, {
+    "name" : "testClass",
+    "value" : "Salesforce E2E"
+  }, {
+    "name" : "testMethod",
+    "value" : "should not allow change quantity of service"
+  }, {
+    "name" : "package",
+    "value" : "Salesforce E2E"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-88.0.4324.150"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "9fb3e12c1200fb28",
+      "status" : "passed",
+      "time" : {
+        "start" : 1613176248689,
+        "stop" : 1613176259369,
+        "duration" : 10680
+      }
+    }, {
+      "uid" : "f1849376e2c19ecf",
+      "status" : "passed",
+      "time" : {
+        "start" : 1613175484446,
+        "stop" : 1613175496553,
+        "duration" : 12107
+      }
+    }, {
+      "uid" : "1eb9ecfb4c6f5a11",
+      "status" : "broken",
+      "statusDetails" : "connect ECONNREFUSED 127.0.0.1:9515",
+      "time" : {
+        "start" : 1613174626694,
+        "stop" : 1613174626703,
+        "duration" : 9
+      }
+    }, {
+      "uid" : "7a57d482fcb14b55",
+      "status" : "broken",
+      "statusDetails" : "Can't call click on element with selector \"//div[contains(text(),'Edit Products')]\" because element wasn't found",
+      "time" : {
+        "start" : 1613174517969,
+        "stop" : 1613174528147,
+        "duration" : 10178
+      }
+    }, {
+      "uid" : "d27452f1badb561d",
+      "status" : "broken",
+      "statusDetails" : "Can't call click on element with selector \"//div[contains(text(),'Edit Products')]\" because element wasn't found",
+      "time" : {
+        "start" : 1613174354526,
+        "stop" : 1613174365002,
+        "duration" : 10476
+      }
+    }, {
+      "uid" : "de84593557a2d81c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1613173559385,
+        "stop" : 1613173567056,
+        "duration" : 7671
+      }
+    }, {
+      "uid" : "f963b015200a12b8",
+      "status" : "broken",
+      "statusDetails" : "Can't call click on element with selector \"//div[contains(text(),'Edit Products')]\" because element wasn't found",
+      "time" : {
+        "start" : 1613173228081,
+        "stop" : 1613173238638,
+        "duration" : 10557
+      }
+    }, {
+      "uid" : "a50bd5f1b44b9ff9",
+      "status" : "broken",
+      "statusDetails" : "Can't call click on element with selector \"//div[contains(text(),'Edit Products')]\" because element wasn't found",
+      "time" : {
+        "start" : 1613172822644,
+        "stop" : 1613172833512,
+        "duration" : 10868
+      }
+    }, {
+      "uid" : "59a09c2c8ad24c0c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1613172075179,
+        "stop" : 1613172085952,
+        "duration" : 10773
+      }
+    }, {
+      "uid" : "dcecacbde81035cd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1613149429577,
+        "stop" : 1613149437049,
+        "duration" : 7472
+      }
+    }, {
+      "uid" : "2eb22a525e09277a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1613149345904,
+        "stop" : 1613149353716,
+        "duration" : 7812
+      }
+    }, {
+      "uid" : "35cdbdb04349b7d3",
+      "status" : "broken",
+      "statusDetails" : "Can't call click on element with selector \"//body/div[5]/div[2]/div[1]/div[2]/div[1]/div[3]/div[1]/button[1]/span[1]\" because element wasn't found",
+      "time" : {
+        "start" : 1613149137738,
+        "stop" : 1613149155249,
+        "duration" : 17511
+      }
+    }, {
+      "uid" : "d6029c58e27e5ff1",
+      "status" : "broken",
+      "statusDetails" : "Can't call click on element with selector \"//body/div[5]/div[2]/div[1]/div[2]/div[1]/div[1]/button[1]/lightning-primitive-icon[1]\" because element wasn't found",
+      "time" : {
+        "start" : 1613149015320,
+        "stop" : 1613149033461,
+        "duration" : 18141
+      }
+    }, {
+      "uid" : "247b581879e906f2",
+      "status" : "broken",
+      "statusDetails" : "Can't call click on element with selector \"//body/div[5]/div[2]/div[1]/div[2]/div[1]/div[1]/button[1]/lightning-primitive-icon[1]\" because element wasn't found",
+      "time" : {
+        "start" : 1613147722686,
+        "stop" : 1613147739875,
+        "duration" : 17189
+      }
+    }, {
+      "uid" : "786f19e5d3c3ef11",
+      "status" : "broken",
+      "statusDetails" : "Can't call click on element with selector \"//body/div[5]/div[2]/div[1]/div[2]/div[1]/div[3]/div[1]/button[1]/span[1]\" because element wasn't found",
+      "time" : {
+        "start" : 1613147570745,
+        "stop" : 1613147587712,
+        "duration" : 16967
+      }
+    }, {
+      "uid" : "a2da2e2e2e5a70b2",
+      "status" : "broken",
+      "statusDetails" : "browser.waitUntil(...).then is not a function",
+      "time" : {
+        "start" : 1613147464909,
+        "stop" : 1613147469998,
+        "duration" : 5089
+      }
+    }, {
+      "uid" : "5af061e406a6ca79",
+      "status" : "broken",
+      "statusDetails" : "no such alert\n                  (Session info: chrome=88.0.4324.150)",
+      "time" : {
+        "start" : 1613147279528,
+        "stop" : 1613147283984,
+        "duration" : 4456
+      }
+    }, {
+      "uid" : "b72b34b31e6e5dd5",
+      "status" : "broken",
+      "statusDetails" : "expected element to exist after 5s",
+      "time" : {
+        "start" : 1613147227583,
+        "stop" : 1613147236431,
+        "duration" : 8848
+      }
+    }, {
+      "uid" : "9f06b38662dc7e79",
+      "status" : "broken",
+      "statusDetails" : "Can't call click on element with selector \"//body/div[5]/div[2]/div[2]/div[1]/div[1]/button[1]\" because element wasn't found",
+      "time" : {
+        "start" : 1613146736319,
+        "stop" : 1613146750618,
+        "duration" : 14299
+      }
+    }, {
+      "uid" : "2fcaf23c3f54ee72",
+      "status" : "passed",
+      "time" : {
+        "start" : 1613146479598,
+        "stop" : 1613146490268,
+        "duration" : 10670
+      }
+    }, {
+      "uid" : "d8f28bac4bced608",
+      "status" : "passed",
+      "time" : {
+        "start" : 1613145972764,
+        "stop" : 1613145983367,
+        "duration" : 10603
+      }
+    }, {
+      "uid" : "2e948d49c9ad434b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1613145796813,
+        "stop" : 1613145807257,
+        "duration" : 10444
+      }
+    }, {
+      "uid" : "951939a92541278c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1613144257267,
+        "stop" : 1613144267635,
+        "duration" : 10368
+      }
+    }, {
+      "uid" : "fa2a0602851cf131",
+      "status" : "broken",
+      "statusDetails" : "expected element to exist after 5s",
+      "time" : {
+        "start" : 1613144083153,
+        "stop" : 1613144091836,
+        "duration" : 8683
+      }
+    }, {
+      "uid" : "d2e3a7ad300b7d61",
+      "status" : "broken",
+      "statusDetails" : "expected element to exist after 5s",
+      "time" : {
+        "start" : 1613144010921,
+        "stop" : 1613144020010,
+        "duration" : 9089
+      }
+    }, {
+      "uid" : "cce623151f51641d",
+      "status" : "broken",
+      "statusDetails" : "expected element to exist after 5s",
+      "time" : {
+        "start" : 1613143824616,
+        "stop" : 1613143833381,
+        "duration" : 8765
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "69b4bcf4b90be5ba.json",
+  "parameterValues" : [ "chrome-88.0.4324.150" ]
+}

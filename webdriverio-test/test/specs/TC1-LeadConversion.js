@@ -63,14 +63,6 @@ describe('Salesforce E2E', function () {
 
   });
 
-  
-  it('should delete created account, contact and opportunity',  () => {   
-    browser.pause(3000);
-    deleteAccount(company);
-    console.log('Test Complete');
-   
-  });
-
 });
 
 async function login() {

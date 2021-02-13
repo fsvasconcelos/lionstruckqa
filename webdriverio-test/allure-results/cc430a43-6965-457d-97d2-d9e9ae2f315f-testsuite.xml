@@ -1,0 +1,60 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1613161571485' stop='1613161587567'>
+    <name>Salesforce E2E</name>
+    <title>Salesforce E2E</title>
+    <test-cases>
+        <test-case start='1613161571487' status='passed' stop='1613161573389'>
+            <name>should login</name>
+            <title>should login</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-88.0.4324.150'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1613161573389' status='broken' stop='1613161587565'>
+            <name>should add quote</name>
+            <title>should add quote</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-88.0.4324.150'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>invalid element state: Failed to execute 'querySelectorAll' on 'Element': '//div[5]/div[2]/div[1]/div[2]/div[1]/div[2]/div[1]/div[1]/div[2]/div[1]/div[1]/div[2]/button[3]' is not a valid selector.
+                  (Session info: chrome=88.0.4324.150)</message>
+                <stack-trace>invalid element state: Failed to execute 'querySelectorAll' on 'Element': '//div[5]/div[2]/div[1]/div[2]/div[1]/div[2]/div[1]/div[1]/div[2]/div[1]/div[1]/div[2]/button[3]' is not a valid selector.
+                  (Session info: chrome=88.0.4324.150)
+                    at Object.getErrorFromResponseBody (C:\Source\lionstruckqa\webdriverio-test\node_modules\webdriver\build\utils.js:94:12)
+                    at WebDriverRequest._request (C:\Source\lionstruckqa\webdriverio-test\node_modules\webdriver\build\request.js:134:31)
+                    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+                    at async Browser.runCommandWithHooks (C:\Source\lionstruckqa\webdriverio-test\node_modules\@wdio\sync\build\wrapCommand.js:70:25)
+                    at Browser.runCommandWithHooks (C:\Source\lionstruckqa\webdriverio-test\node_modules\@wdio\sync\build\wrapCommand.js:65:24)
+                    at Browser.wrapCommandFn (C:\Source\lionstruckqa\webdriverio-test\node_modules\@wdio\sync\build\wrapCommand.js:44:44)
+                    at fetchElementByJSFunction (C:\Source\lionstruckqa\webdriverio-test\node_modules\webdriverio\build\utils\index.js:146:36)
+                    at Element.findElement (C:\Source\lionstruckqa\webdriverio-test\node_modules\webdriverio\build\utils\index.js:157:26)
+                    at Element.$ (C:\Source\lionstruckqa\webdriverio-test\node_modules\webdriverio\build\commands\element\$.js:10:43)
+                    at Element.wrapCommandFn (C:\Source\lionstruckqa\webdriverio-test\node_modules\@wdio\sync\build\wrapCommand.js:40:23)
+                    at Element.elementErrorHandlerCallbackFn (C:\Source\lionstruckqa\webdriverio-test\node_modules\webdriverio\build\middlewares.js:17:65)
+                    at async Element.shadowRoot (C:\Source\lionstruckqa\webdriverio-test\node_modules\webdriverio\build\commands\element\shadow$.js:5:12)
+                    at async Element.elementErrorHandlerCallbackFn (C:\Source\lionstruckqa\webdriverio-test\node_modules\webdriverio\build\middlewares.js:17:32)
+                    at Element.runCommandWithHooks (C:\Source\lionstruckqa\webdriverio-test\node_modules\@wdio\sync\build\wrapCommand.js:65:24)
+                    at Element.wrapCommandFn (C:\Source\lionstruckqa\webdriverio-test\node_modules\@wdio\sync\build\wrapCommand.js:44:44)
+                    at Element.elementErrorHandlerCallback (C:\Source\lionstruckqa\webdriverio-test\node_modules\webdriverio\build\middlewares.js:34:12)
+                    at Context.&lt;anonymous> (C:\Source\lionstruckqa\webdriverio-test\test\specs\TC4-ManageQuotes.js:84:30)
+                    at Context.executeSync (C:\Source\lionstruckqa\webdriverio-test\node_modules\@wdio\sync\build\index.js:25:22)
+                    at C:\Source\lionstruckqa\webdriverio-test\node_modules\@wdio\sync\build\index.js:46:68</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

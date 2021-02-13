@@ -1,0 +1,58 @@
+{
+  "uid" : "9ee91ca94bba3c7a",
+  "name" : "should add quote",
+  "fullName" : "Salesforce E2E.should add quote",
+  "historyId" : "d7beddb843672f19747e1c1254f8bcf3",
+  "time" : {
+    "start" : 1613157245968,
+    "stop" : 1613157268281,
+    "duration" : 22313
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "Can't call click on element with selector \"//body/div[5]/div[2]/div[1]/div[2]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/article[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[2]/span[1]/span[1]/img[1]\" because element wasn't found",
+  "statusTrace" : "Error: Can't call click on element with selector \"//body/div[5]/div[2]/div[1]/div[2]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/article[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[2]/span[1]/span[1]/img[1]\" because element wasn't found\n                    at Object.implicitWait [as default] (C:\\Source\\lionstruckqa\\webdriverio-test\\node_modules\\webdriverio\\build\\utils\\implicitWait.js:26:19)\n                    at async Element.elementErrorHandlerCallbackFn (C:\\Source\\lionstruckqa\\webdriverio-test\\node_modules\\webdriverio\\build\\middlewares.js:13:29)\n                    at async Element.runCommandWithHooks (C:\\Source\\lionstruckqa\\webdriverio-test\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:70:25)\n                    at Element.runCommandWithHooks (C:\\Source\\lionstruckqa\\webdriverio-test\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:65:24)\n                    at Element.wrapCommandFn (C:\\Source\\lionstruckqa\\webdriverio-test\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:44:44)\n                    at Element.elementErrorHandlerCallback (C:\\Source\\lionstruckqa\\webdriverio-test\\node_modules\\webdriverio\\build\\middlewares.js:34:12)\n                    at Context.<anonymous> (C:\\Source\\lionstruckqa\\webdriverio-test\\test\\specs\\TC4-ManageQuotes.js:77:13)\n                    at Context.executeSync (C:\\Source\\lionstruckqa\\webdriverio-test\\node_modules\\@wdio\\sync\\build\\index.js:25:22)\n                    at C:\\Source\\lionstruckqa\\webdriverio-test\\node_modules\\@wdio\\sync\\build\\index.js:46:68",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Salesforce E2E"
+  }, {
+    "name" : "testClass",
+    "value" : "Salesforce E2E"
+  }, {
+    "name" : "testMethod",
+    "value" : "should add quote"
+  }, {
+    "name" : "package",
+    "value" : "Salesforce E2E"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-88.0.4324.150"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "9ee91ca94bba3c7a.json",
+  "parameterValues" : [ "chrome-88.0.4324.150" ]
+}

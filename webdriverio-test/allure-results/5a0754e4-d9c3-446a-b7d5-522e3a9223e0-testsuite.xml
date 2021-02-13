@@ -1,0 +1,56 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1613146069726' stop='1613146083158'>
+    <name>Salesforce E2E</name>
+    <title>Salesforce E2E</title>
+    <test-cases>
+        <test-case start='1613146069727' status='passed' stop='1613146071405'>
+            <name>should login</name>
+            <title>should login</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-88.0.4324.150'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1613146071405' status='passed' stop='1613146075661'>
+            <name>should return an opportunity with line items</name>
+            <title>should return an opportunity with line items</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-88.0.4324.150'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1613146075661' status='failed' stop='1613146083156'>
+            <name>should update quantity of service accordingly</name>
+            <title>should update quantity of service accordingly</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-88.0.4324.150'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Service is not 10% of the truck price!: expected 20 to equal 10</message>
+                <stack-trace>AssertionError: Service is not 10% of the truck price!: expected 20 to equal 10
+                    at Context.&lt;anonymous> (C:\Source\lionstruckqa\webdriverio-test\test\specs\TC3-ManageSubscriptionProducts.js:81:12)
+                    at Context.executeSync (C:\Source\lionstruckqa\webdriverio-test\node_modules\@wdio\sync\build\index.js:25:22)
+                    at C:\Source\lionstruckqa\webdriverio-test\node_modules\@wdio\sync\build\index.js:46:68</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

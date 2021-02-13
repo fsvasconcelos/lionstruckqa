@@ -2,25 +2,35 @@ var chai = require('chai'),
     assert = chai.assert,
     jsforce = require('jsforce'),
     conn = new jsforce.Connection(),
-    settings = require('../../../.vscode/settings.json');
+    settings = require('../../../.vscode/settings.json'),
+    myConstClass = require('../utils/constants.js');
     
 describe('Salesforce E2E', function () {
 
   this.timeout(30000);
 
+  const account = myConstClass.LEAD_COMPANY;
+
   it('should login', login);
 
-  it('should return an opportunity with line items', () => {  
-    getOpportunity();
-    const pageTitle = $("//h1[contains(text(),'Products (Standard Price Book)')]");
-    console.log('my page title: ' + pageTitle.getText());
-    assert.strictEqual(pageTitle.getText(), 'Products (Standard Price Book)');
-    
+  it('should return an opportunity', () => {  
+    getAccount(account);
+    browser.pause(5000);
+    const url = browser.getUrl();
+    const pattern = url.match(/Account\/(.*?)\/view/);
+    const accountId = pattern[1];
+    getOpportunity(accountId);
+    browser.pause(5000);    
   });
 
-  it('should add service in opportunity', () => {  
+ it('should add service in opportunity', () => {  
     const addProduct = $("//div[contains(text(),'Add Products')]");
     addProduct.click();
+    browser.pause(3000); 
+    browser.keys('\uE004');//Tab
+    browser.keys('\uE004');//Tab
+    browser.keys('\uE007');//Enter
+    browser.pause(3000);  
     const searchText = $('[title="Search Products"]');
     searchText.setValue('Truck TGX');
 	browser.keys('\uE007');//Enter
@@ -61,23 +71,6 @@ describe('Salesforce E2E', function () {
 
   });
 
-  it('should delete added service', () => {  
-    const dropdown = $("//tbody/tr[3]/td[6]/span[1]/div[1]");
-    dropdown.click();
-    browser.pause(3000);
-
-    browser.keys('\uE015');//Arrow down
-    browser.keys('\uE015');
-    browser.keys('\uE007');//Enter
-
-    browser.pause(3000);
-
-    $("//span[contains(text(),'Delete')]").click();
-    browser.pause(3000);
-    console.log('Test Completed');
-    
-  });
-
 });
 
 async function login() {
@@ -87,11 +80,21 @@ async function login() {
 
 }
 
-async function getOpportunity() {
+async function getOpportunity(accountId) {
     return await conn.sobject('Opportunity')
-    .find({ 'HasOpportunityLineItem' : true}, function(err, rets) {
+    .find({ 'AccountId' : accountId}, function(err, rets) {
       if (err) { return console.error(err); }
       console.log(rets);
       browser.url(`${conn.instanceUrl}/lightning/r/OpportunityLineItem/${rets[0].Id}/related/OpportunityLineItems/view`);
+    });
+}
+
+async function getAccount(name) {
+    return await conn.sobject('Account')
+    .find({ 'Name' : name}, function(err, rets) {
+      if (err) { return console.error(err); }
+      console.log(rets);
+      assert.strictEqual(rets[0].Name,name);
+      browser.url(`${conn.instanceUrl}/lightning/r/Account/${rets[0].Id}/view`);
     });
   }

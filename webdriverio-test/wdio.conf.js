@@ -19,6 +19,17 @@ exports.config = {
     specs: [
         './test/specs/*'
     ],
+    suites: {
+        fullRegression: [
+            './test/specs/TC1-LeadConversion.js',
+            './test/specs/TC2-SubscriptionProductsInOpportunity.js',
+            './test/specs/TC3-ManageSubscriptionProducts.js',
+            './test/specs/TC4-ManageQuotes.js'
+        ],
+        otherFeature: [
+            // ...
+        ]
+    },
     // Patterns to exclude.
     exclude: [
         // 'path/to/excluded/files'
@@ -39,7 +50,7 @@ exports.config = {
     // and 30 processes will get spawned. The property handles how many capabilities
     // from the same test should run tests.
     //
-    maxInstances: 10,
+    maxInstances: 1,
     //
     // If you have trouble getting all important capabilities together, check out the
     // Sauce Labs platform configurator - a great tool to configure your capabilities:
@@ -50,7 +61,7 @@ exports.config = {
         // maxInstances can get overwritten per capability. So if you have an in-house Selenium
         // grid with only 5 firefox instances available you can make sure that not more than
         // 5 instances get started at a time.
-        maxInstances: 5,
+        maxInstances: 1,
         //
         browserName: 'chrome',
         acceptInsecureCerts: true,
@@ -112,6 +123,7 @@ exports.config = {
     // your test setup with almost no effort. Unlike plugins, they don't add new
     // commands. Instead, they hook themselves up into the test process.
     services: ['chromedriver'],
+              
     
     // Framework you want to run your specs with.
     // The following are supported: Mocha, Jasmine, and Cucumber

@@ -1,0 +1,130 @@
+{
+  "uid" : "72afbb9918a67900",
+  "name" : "should create a new lead",
+  "fullName" : "Salesforce E2E.should create a new lead",
+  "historyId" : "c4f81066c350a1c7b1b6f9f542c5403b",
+  "time" : {
+    "start" : 1613176361405,
+    "stop" : 1613176370948,
+    "duration" : 9543
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Salesforce E2E"
+  }, {
+    "name" : "testClass",
+    "value" : "Salesforce E2E"
+  }, {
+    "name" : "testMethod",
+    "value" : "should create a new lead"
+  }, {
+    "name" : "package",
+    "value" : "Salesforce E2E"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-88.0.4324.150"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "ba390a4663d2fd6f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1613176170061,
+        "stop" : 1613176178728,
+        "duration" : 8667
+      }
+    }, {
+      "uid" : "3f6dd880fd0cf6e0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1613175400073,
+        "stop" : 1613175408795,
+        "duration" : 8722
+      }
+    }, {
+      "uid" : "b3a18a8ab414276a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1613174510585,
+        "stop" : 1613174527467,
+        "duration" : 16882
+      }
+    }, {
+      "uid" : "fdee844f63983343",
+      "status" : "passed",
+      "time" : {
+        "start" : 1613174354247,
+        "stop" : 1613174361977,
+        "duration" : 7730
+      }
+    }, {
+      "uid" : "2462a4aa13d348d0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1613173431575,
+        "stop" : 1613173437241,
+        "duration" : 5666
+      }
+    }, {
+      "uid" : "7e606e9ae7ded2c9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1613173221085,
+        "stop" : 1613173232694,
+        "duration" : 11609
+      }
+    }, {
+      "uid" : "a60d610764a8e047",
+      "status" : "passed",
+      "time" : {
+        "start" : 1613172824013,
+        "stop" : 1613172830789,
+        "duration" : 6776
+      }
+    }, {
+      "uid" : "833508d3ed9c90d6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1613172060522,
+        "stop" : 1613172071822,
+        "duration" : 11300
+      }
+    }, {
+      "uid" : "a280c0d3220946a5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1613129566123,
+        "stop" : 1613129574153,
+        "duration" : 8030
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "72afbb9918a67900.json",
+  "parameterValues" : [ "chrome-88.0.4324.150" ]
+}

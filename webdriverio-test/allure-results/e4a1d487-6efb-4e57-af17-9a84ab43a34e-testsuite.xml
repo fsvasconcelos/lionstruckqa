@@ -1,0 +1,57 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1613173213879' stop='1613173262079'>
+    <name>Salesforce E2E</name>
+    <title>Salesforce E2E</title>
+    <test-cases>
+        <test-case start='1613173213880' status='passed' stop='1613173222287'>
+            <name>should login</name>
+            <title>should login</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-88.0.4324.150'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1613173222288' status='passed' stop='1613173232069'>
+            <name>should return an opportunity</name>
+            <title>should return an opportunity</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-88.0.4324.150'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1613173232070' status='broken' stop='1613173262075'>
+            <name>should add service in opportunity</name>
+            <title>should add service in opportunity</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-88.0.4324.150'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Timeout of 30000ms exceeded. The execution in the test "Salesforce E2E should add service in opportunity" took too long. Try to reduce the run time or increase your timeout for test specs (https://webdriver.io/docs/timeouts.html). (C:\Source\lionstruckqa\webdriverio-test\test\specs\TC2-SubscriptionProductsInOpportunity.js)</message>
+                <stack-trace>Error: Timeout of 30000ms exceeded. The execution in the test "Salesforce E2E should add service in opportunity" took too long. Try to reduce the run time or increase your timeout for test specs (https://webdriver.io/docs/timeouts.html). (C:\Source\lionstruckqa\webdriverio-test\test\specs\TC2-SubscriptionProductsInOpportunity.js)
+                    at Test.Runnable._timeoutError (C:\Source\lionstruckqa\webdriverio-test\node_modules\mocha\lib\runnable.js:432:10)
+                    at Timeout.&lt;anonymous> (C:\Source\lionstruckqa\webdriverio-test\node_modules\mocha\lib\runnable.js:244:24)
+                    at listOnTimeout (internal/timers.js:554:17)
+                    at processTimers (internal/timers.js:497:7)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

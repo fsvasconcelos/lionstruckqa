@@ -1,0 +1,131 @@
+{
+  "uid" : "20fd3b8b24bd7e21",
+  "name" : "should convert lead into account, contact and opportunity",
+  "fullName" : "Salesforce E2E.should convert lead into account, contact and opportunity",
+  "historyId" : "5646d65bab702711a28e5466df1aa932",
+  "time" : {
+    "start" : 1613176370948,
+    "stop" : 1613176385453,
+    "duration" : 14505
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Salesforce E2E"
+  }, {
+    "name" : "testClass",
+    "value" : "Salesforce E2E"
+  }, {
+    "name" : "testMethod",
+    "value" : "should convert lead into account, contact and opportunity"
+  }, {
+    "name" : "package",
+    "value" : "Salesforce E2E"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-88.0.4324.150"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "8aaf3742c9926981",
+      "status" : "passed",
+      "time" : {
+        "start" : 1613176178728,
+        "stop" : 1613176192720,
+        "duration" : 13992
+      }
+    }, {
+      "uid" : "3e262bdd40459daa",
+      "status" : "passed",
+      "time" : {
+        "start" : 1613175408795,
+        "stop" : 1613175422946,
+        "duration" : 14151
+      }
+    }, {
+      "uid" : "b91ae4ebdd360184",
+      "status" : "broken",
+      "statusDetails" : "expected element to exist after 5s",
+      "time" : {
+        "start" : 1613174527468,
+        "stop" : 1613174542259,
+        "duration" : 14791
+      }
+    }, {
+      "uid" : "1d5bb0847c8a4246",
+      "status" : "passed",
+      "time" : {
+        "start" : 1613174361977,
+        "stop" : 1613174376011,
+        "duration" : 14034
+      }
+    }, {
+      "uid" : "1757fef4459bba98",
+      "status" : "passed",
+      "time" : {
+        "start" : 1613173437241,
+        "stop" : 1613173450836,
+        "duration" : 13595
+      }
+    }, {
+      "uid" : "3f3cc0e19da60cf1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1613173232695,
+        "stop" : 1613173249553,
+        "duration" : 16858
+      }
+    }, {
+      "uid" : "bc8932741aa4b623",
+      "status" : "passed",
+      "time" : {
+        "start" : 1613172830790,
+        "stop" : 1613172844681,
+        "duration" : 13891
+      }
+    }, {
+      "uid" : "b9afd17eb538c174",
+      "status" : "passed",
+      "time" : {
+        "start" : 1613172071823,
+        "stop" : 1613172086655,
+        "duration" : 14832
+      }
+    }, {
+      "uid" : "c17de37fd8c1cf38",
+      "status" : "passed",
+      "time" : {
+        "start" : 1613129574156,
+        "stop" : 1613129588407,
+        "duration" : 14251
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "20fd3b8b24bd7e21.json",
+  "parameterValues" : [ "chrome-88.0.4324.150" ]
+}

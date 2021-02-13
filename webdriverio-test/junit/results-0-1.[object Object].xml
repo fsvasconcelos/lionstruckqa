@@ -1,152 +1,110 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testsuites>
-  <testsuite name="Salesforce_E2E" timestamp="2021-02-12T11:32:45" time="34.714" tests="4" failures="0" errors="0" skipped="0">
+  <testsuite name="Salesforce_E2E" timestamp="2021-02-13T00:33:13" time="33.691" tests="3" failures="0" errors="0" skipped="0">
     <properties>
       <property name="specId" value="0"/>
       <property name="suiteName" value="Salesforce E2E"/>
       <property name="capabilities" value="chrome.88_0_4324_150.windows"/>
       <property name="file" value=".\test\specs\TC2-SubscriptionProductsInOpportunity.js"/>
     </properties>
-    <testcase classname="chrome.88_0_4324_150.windows.Salesforce_E2E" name="should_login" time="1.664">
+    <testcase classname="chrome.88_0_4324_150.windows.Salesforce_E2E" name="should_login" time="3.859">
       <system-out>
         <![CDATA[
-COMMAND: POST /session/8aedd305befe8c585302d66990376cc3/url - {"url":"https://lisboa2-dev-ed.my.salesforce.com/secur/frontdoor.jsp?sid=00D09000007FkiR!AQEAQHjw_AY2ByCudELZdCUbH0iaMeQo.o7xL1irtTUZatijcsH0wXrtDwQmRADFSIGcUTr3FRBITbbPwuzJiTkrfTNUW0GC"}
-RESULT: {"url":"https://lisboa2-dev-ed.my.salesforce.com/secur/frontdoor.jsp?sid=00D09000007FkiR!AQEAQHjw_AY2ByCudELZdCUbH0iaMeQo.o7xL1irtTUZatijcsH0wXrtDwQmRADFSIGcUTr3FRBITbbPwuzJiTkrfTNUW0GC"}
+COMMAND: POST /session/0a212bf7b8561ec6f72bcfc059365504/url - {"url":"https://lisboa2-dev-ed.my.salesforce.com/secur/frontdoor.jsp?sid=00D09000007FkiR!AQEAQOG7c1gg2K_3QSh7BGWe.a6BwIGcsKTXY7jZ8LiD_trqapAhbCKUpRADrKC_pO1fBGtyr5PhdRMBFssSGvk6yZuMSiD."}
+RESULT: {"url":"https://lisboa2-dev-ed.my.salesforce.com/secur/frontdoor.jsp?sid=00D09000007FkiR!AQEAQOG7c1gg2K_3QSh7BGWe.a6BwIGcsKTXY7jZ8LiD_trqapAhbCKUpRADrKC_pO1fBGtyr5PhdRMBFssSGvk6yZuMSiD."}
 ]]>
       </system-out>
     </testcase>
-    <testcase classname="chrome.88_0_4324_150.windows.Salesforce_E2E" name="should_return_an_opportunity_with_line_items" time="6.946">
+    <testcase classname="chrome.88_0_4324_150.windows.Salesforce_E2E" name="should_return_an_opportunity" time="10.085">
       <system-out>
         <![CDATA[
-COMMAND: POST /session/8aedd305befe8c585302d66990376cc3/element - {"using":"xpath","value":"//h1[contains(text(),'Products (Standard Price Book)')]"}
-COMMAND: POST /session/8aedd305befe8c585302d66990376cc3/url - {"url":"https://lisboa2-dev-ed.my.salesforce.com/lightning/r/OpportunityLineItem/00609000003PaZMAA0/related/OpportunityLineItems/view"}
-RESULT: {"using":"xpath","value":"//h1[contains(text(),'Products (Standard Price Book)')]"}
-COMMAND: POST /session/8aedd305befe8c585302d66990376cc3/elements - {"using":"xpath","value":"//h1[contains(text(),'Products (Standard Price Book)')]"}
-RESULT: {"url":"https://lisboa2-dev-ed.my.salesforce.com/lightning/r/OpportunityLineItem/00609000003PaZMAA0/related/OpportunityLineItems/view"}
-RESULT: {"using":"xpath","value":"//h1[contains(text(),'Products (Standard Price Book)')]"}
-COMMAND: POST /session/8aedd305befe8c585302d66990376cc3/elements - {"using":"xpath","value":"//h1[contains(text(),'Products (Standard Price Book)')]"}
-RESULT: {"using":"xpath","value":"//h1[contains(text(),'Products (Standard Price Book)')]"}
-COMMAND: POST /session/8aedd305befe8c585302d66990376cc3/elements - {"using":"xpath","value":"//h1[contains(text(),'Products (Standard Price Book)')]"}
-RESULT: {"using":"xpath","value":"//h1[contains(text(),'Products (Standard Price Book)')]"}
-COMMAND: POST /session/8aedd305befe8c585302d66990376cc3/elements - {"using":"xpath","value":"//h1[contains(text(),'Products (Standard Price Book)')]"}
-RESULT: {"using":"xpath","value":"//h1[contains(text(),'Products (Standard Price Book)')]"}
-COMMAND: POST /session/8aedd305befe8c585302d66990376cc3/elements - {"using":"xpath","value":"//h1[contains(text(),'Products (Standard Price Book)')]"}
-RESULT: {"using":"xpath","value":"//h1[contains(text(),'Products (Standard Price Book)')]"}
-COMMAND: POST /session/8aedd305befe8c585302d66990376cc3/elements - {"using":"xpath","value":"//h1[contains(text(),'Products (Standard Price Book)')]"}
-RESULT: {"using":"xpath","value":"//h1[contains(text(),'Products (Standard Price Book)')]"}
-COMMAND: POST /session/8aedd305befe8c585302d66990376cc3/elements - {"using":"xpath","value":"//h1[contains(text(),'Products (Standard Price Book)')]"}
-RESULT: {"using":"xpath","value":"//h1[contains(text(),'Products (Standard Price Book)')]"}
-COMMAND: POST /session/8aedd305befe8c585302d66990376cc3/elements - {"using":"xpath","value":"//h1[contains(text(),'Products (Standard Price Book)')]"}
-RESULT: {"using":"xpath","value":"//h1[contains(text(),'Products (Standard Price Book)')]"}
-COMMAND: POST /session/8aedd305befe8c585302d66990376cc3/element - {"using":"xpath","value":"//h1[contains(text(),'Products (Standard Price Book)')]"}
-RESULT: {"using":"xpath","value":"//h1[contains(text(),'Products (Standard Price Book)')]"}
-COMMAND: GET /session/8aedd305befe8c585302d66990376cc3/element/4f695a6f-0702-4d95-ad07-83565b023493/text - {}
+COMMAND: POST /session/0a212bf7b8561ec6f72bcfc059365504/url - {"url":"https://lisboa2-dev-ed.my.salesforce.com/lightning/r/Account/00109000009OsGFAA0/view"}
+RESULT: {"url":"https://lisboa2-dev-ed.my.salesforce.com/lightning/r/Account/00109000009OsGFAA0/view"}
+COMMAND: GET /session/0a212bf7b8561ec6f72bcfc059365504/url - {}
 RESULT: {}
-COMMAND: GET /session/8aedd305befe8c585302d66990376cc3/element/4f695a6f-0702-4d95-ad07-83565b023493/text - {}
-RESULT: {}
+COMMAND: POST /session/0a212bf7b8561ec6f72bcfc059365504/url - {"url":"https://lisboa2-dev-ed.my.salesforce.com/lightning/r/OpportunityLineItem/00609000003QBcRAAW/related/OpportunityLineItems/view"}
+RESULT: {"url":"https://lisboa2-dev-ed.my.salesforce.com/lightning/r/OpportunityLineItem/00609000003QBcRAAW/related/OpportunityLineItems/view"}
 ]]>
       </system-out>
     </testcase>
-    <testcase classname="chrome.88_0_4324_150.windows.Salesforce_E2E" name="should_add_service_in_opportunity" time="16.652">
+    <testcase classname="chrome.88_0_4324_150.windows.Salesforce_E2E" name="should_add_service_in_opportunity" time="19.743">
       <system-out>
         <![CDATA[
-COMMAND: POST /session/8aedd305befe8c585302d66990376cc3/element - {"using":"xpath","value":"//div[contains(text(),'Add Products')]"}
+COMMAND: POST /session/0a212bf7b8561ec6f72bcfc059365504/element - {"using":"xpath","value":"//div[contains(text(),'Add Products')]"}
 RESULT: {"using":"xpath","value":"//div[contains(text(),'Add Products')]"}
-COMMAND: POST /session/8aedd305befe8c585302d66990376cc3/element/5b36b6c1-7f2e-4c7d-85e2-84573a0bd40c/click - {}
+COMMAND: POST /session/0a212bf7b8561ec6f72bcfc059365504/element/fdca23b4-36ff-4ec8-98a8-07a600098f1d/click - {}
 RESULT: {}
-COMMAND: POST /session/8aedd305befe8c585302d66990376cc3/element - {"using":"css selector","value":"[title=\"Search Products\"]"}
+COMMAND: POST /session/0a212bf7b8561ec6f72bcfc059365504/actions - {"actions":[{"type":"key","id":"keyboard","actions":[{"type":"keyDown","value":""},{"type":"keyUp","value":""}]}]}
+RESULT: {"actions":[{"type":"key","id":"keyboard","actions":[{"type":"keyDown","value":""},{"type":"keyUp","value":""}]}]}
+COMMAND: DELETE /session/0a212bf7b8561ec6f72bcfc059365504/actions - {}
+RESULT: {}
+COMMAND: POST /session/0a212bf7b8561ec6f72bcfc059365504/actions - {"actions":[{"type":"key","id":"keyboard","actions":[{"type":"keyDown","value":""},{"type":"keyUp","value":""}]}]}
+RESULT: {"actions":[{"type":"key","id":"keyboard","actions":[{"type":"keyDown","value":""},{"type":"keyUp","value":""}]}]}
+COMMAND: DELETE /session/0a212bf7b8561ec6f72bcfc059365504/actions - {}
+RESULT: {}
+COMMAND: POST /session/0a212bf7b8561ec6f72bcfc059365504/actions - {"actions":[{"type":"key","id":"keyboard","actions":[{"type":"keyDown","value":""},{"type":"keyUp","value":""}]}]}
+RESULT: {"actions":[{"type":"key","id":"keyboard","actions":[{"type":"keyDown","value":""},{"type":"keyUp","value":""}]}]}
+COMMAND: DELETE /session/0a212bf7b8561ec6f72bcfc059365504/actions - {}
+RESULT: {}
+COMMAND: POST /session/0a212bf7b8561ec6f72bcfc059365504/element - {"using":"css selector","value":"[title=\"Search Products\"]"}
 RESULT: {"using":"css selector","value":"[title=\"Search Products\"]"}
-COMMAND: POST /session/8aedd305befe8c585302d66990376cc3/element/d419127d-6ac2-4a8c-8bad-b541d38754ca/clear - {}
+COMMAND: POST /session/0a212bf7b8561ec6f72bcfc059365504/element/2289a5e8-1c33-4bb1-871a-b6e1923761b8/clear - {}
 RESULT: {}
-COMMAND: POST /session/8aedd305befe8c585302d66990376cc3/element/d419127d-6ac2-4a8c-8bad-b541d38754ca/value - {"text":"Truck TGX"}
+COMMAND: POST /session/0a212bf7b8561ec6f72bcfc059365504/element/2289a5e8-1c33-4bb1-871a-b6e1923761b8/value - {"text":"Truck TGX"}
 RESULT: {"text":"Truck TGX"}
-COMMAND: POST /session/8aedd305befe8c585302d66990376cc3/actions - {"actions":[{"type":"key","id":"keyboard","actions":[{"type":"keyDown","value":""},{"type":"keyUp","value":""}]}]}
+COMMAND: POST /session/0a212bf7b8561ec6f72bcfc059365504/actions - {"actions":[{"type":"key","id":"keyboard","actions":[{"type":"keyDown","value":""},{"type":"keyUp","value":""}]}]}
 RESULT: {"actions":[{"type":"key","id":"keyboard","actions":[{"type":"keyDown","value":""},{"type":"keyUp","value":""}]}]}
-COMMAND: DELETE /session/8aedd305befe8c585302d66990376cc3/actions - {}
+COMMAND: DELETE /session/0a212bf7b8561ec6f72bcfc059365504/actions - {}
 RESULT: {}
-COMMAND: POST /session/8aedd305befe8c585302d66990376cc3/element - {"using":"xpath","value":"//tbody/tr[1]/td[2]/span[1]/span[1]/label[1]/span[1]"}
+COMMAND: POST /session/0a212bf7b8561ec6f72bcfc059365504/element - {"using":"xpath","value":"//tbody/tr[1]/td[2]/span[1]/span[1]/label[1]/span[1]"}
 RESULT: {"using":"xpath","value":"//tbody/tr[1]/td[2]/span[1]/span[1]/label[1]/span[1]"}
-COMMAND: POST /session/8aedd305befe8c585302d66990376cc3/element/e7f99a27-af4e-4777-be07-11f8ab7a61a1/click - {}
+COMMAND: POST /session/0a212bf7b8561ec6f72bcfc059365504/element/668b46b9-5b15-4438-b49f-eac43d5e60fb/click - {}
 RESULT: {}
-COMMAND: POST /session/8aedd305befe8c585302d66990376cc3/element - {"using":"xpath","value":"//body/div[4]/div[2]/div[1]/div[2]/div[1]/div[3]/div[1]/button[2]/span[1]"}
+COMMAND: POST /session/0a212bf7b8561ec6f72bcfc059365504/element - {"using":"xpath","value":"//body/div[4]/div[2]/div[1]/div[2]/div[1]/div[3]/div[1]/button[2]/span[1]"}
 RESULT: {"using":"xpath","value":"//body/div[4]/div[2]/div[1]/div[2]/div[1]/div[3]/div[1]/button[2]/span[1]"}
-COMMAND: POST /session/8aedd305befe8c585302d66990376cc3/element/cb4593c7-aa9e-4e23-9c9d-82394fdfcc9f/click - {}
+COMMAND: POST /session/0a212bf7b8561ec6f72bcfc059365504/element/6aa225b9-f5df-4ac2-ad7e-17dab79667ae/click - {}
 RESULT: {}
-COMMAND: POST /session/8aedd305befe8c585302d66990376cc3/element - {"using":"xpath","value":"//tbody/tr[1]/td[2]/span[1]/span[2]/button[1]"}
+COMMAND: POST /session/0a212bf7b8561ec6f72bcfc059365504/element - {"using":"xpath","value":"//tbody/tr[1]/td[2]/span[1]/span[2]/button[1]"}
 RESULT: {"using":"xpath","value":"//tbody/tr[1]/td[2]/span[1]/span[2]/button[1]"}
-COMMAND: POST /session/8aedd305befe8c585302d66990376cc3/element/9dd9b62a-60b9-42ae-bcfe-be6007e4eeb2/click - {}
+COMMAND: POST /session/0a212bf7b8561ec6f72bcfc059365504/element/68624279-b382-45d2-98a4-cd070a9210a3/click - {}
 RESULT: {}
-COMMAND: POST /session/8aedd305befe8c585302d66990376cc3/actions - {"actions":[{"type":"key","id":"keyboard","actions":[{"type":"keyDown","value":""},{"type":"keyUp","value":""}]}]}
+COMMAND: POST /session/0a212bf7b8561ec6f72bcfc059365504/actions - {"actions":[{"type":"key","id":"keyboard","actions":[{"type":"keyDown","value":""},{"type":"keyUp","value":""}]}]}
 RESULT: {"actions":[{"type":"key","id":"keyboard","actions":[{"type":"keyDown","value":""},{"type":"keyUp","value":""}]}]}
-COMMAND: DELETE /session/8aedd305befe8c585302d66990376cc3/actions - {}
+COMMAND: DELETE /session/0a212bf7b8561ec6f72bcfc059365504/actions - {}
 RESULT: {}
-COMMAND: POST /session/8aedd305befe8c585302d66990376cc3/element - {"using":"xpath","value":"//tbody/tr[1]/td[4]/span[1]/span[2]/button[1]"}
+COMMAND: POST /session/0a212bf7b8561ec6f72bcfc059365504/element - {"using":"xpath","value":"//tbody/tr[1]/td[4]/span[1]/span[2]/button[1]"}
 RESULT: {"using":"xpath","value":"//tbody/tr[1]/td[4]/span[1]/span[2]/button[1]"}
-COMMAND: POST /session/8aedd305befe8c585302d66990376cc3/element/901a7340-c95a-422b-be1d-c28ef568f5e1/click - {}
+COMMAND: POST /session/0a212bf7b8561ec6f72bcfc059365504/element/85c96925-e16e-4670-a854-3543f5aa5631/click - {}
 RESULT: {}
-COMMAND: POST /session/8aedd305befe8c585302d66990376cc3/actions - {"actions":[{"type":"key","id":"keyboard","actions":[{"type":"keyDown","value":""},{"type":"keyUp","value":""}]}]}
+COMMAND: POST /session/0a212bf7b8561ec6f72bcfc059365504/actions - {"actions":[{"type":"key","id":"keyboard","actions":[{"type":"keyDown","value":""},{"type":"keyUp","value":""}]}]}
 RESULT: {"actions":[{"type":"key","id":"keyboard","actions":[{"type":"keyDown","value":""},{"type":"keyUp","value":""}]}]}
-COMMAND: DELETE /session/8aedd305befe8c585302d66990376cc3/actions - {}
+COMMAND: DELETE /session/0a212bf7b8561ec6f72bcfc059365504/actions - {}
 RESULT: {}
-COMMAND: POST /session/8aedd305befe8c585302d66990376cc3/element - {"using":"xpath","value":"//body/div[4]/div[2]/div[1]/div[2]/div[1]/div[3]/div[1]/button[3]/span[1]"}
+COMMAND: POST /session/0a212bf7b8561ec6f72bcfc059365504/element - {"using":"xpath","value":"//body/div[4]/div[2]/div[1]/div[2]/div[1]/div[3]/div[1]/button[3]/span[1]"}
 RESULT: {"using":"xpath","value":"//body/div[4]/div[2]/div[1]/div[2]/div[1]/div[3]/div[1]/button[3]/span[1]"}
-COMMAND: POST /session/8aedd305befe8c585302d66990376cc3/element/88be2536-3e66-48b2-ab63-bd7eb70b23bb/click - {}
+COMMAND: POST /session/0a212bf7b8561ec6f72bcfc059365504/element/d5216978-f7c5-491a-b79f-dae6a1c4659f/click - {}
 RESULT: {}
-COMMAND: POST /session/8aedd305befe8c585302d66990376cc3/element - {"using":"xpath","value":"//tbody/tr[3]/td[2]"}
+COMMAND: POST /session/0a212bf7b8561ec6f72bcfc059365504/element - {"using":"xpath","value":"//tbody/tr[3]/td[2]"}
 RESULT: {"using":"xpath","value":"//tbody/tr[3]/td[2]"}
-COMMAND: POST /session/8aedd305befe8c585302d66990376cc3/elements - {"using":"xpath","value":"//tbody/tr[3]/td[2]"}
-RESULT: {"using":"xpath","value":"//tbody/tr[3]/td[2]"}
-COMMAND: POST /session/8aedd305befe8c585302d66990376cc3/elements - {"using":"xpath","value":"//tbody/tr[3]/td[2]"}
-RESULT: {"using":"xpath","value":"//tbody/tr[3]/td[2]"}
-COMMAND: POST /session/8aedd305befe8c585302d66990376cc3/elements - {"using":"xpath","value":"//tbody/tr[3]/td[2]"}
-RESULT: {"using":"xpath","value":"//tbody/tr[3]/td[2]"}
-COMMAND: POST /session/8aedd305befe8c585302d66990376cc3/element - {"using":"xpath","value":"//tbody/tr[3]/td[2]"}
-RESULT: {"using":"xpath","value":"//tbody/tr[3]/td[2]"}
-COMMAND: GET /session/8aedd305befe8c585302d66990376cc3/element/d063fdbf-d3d5-447d-9ed2-e9ade90b0c6f/property/value - {}
+COMMAND: GET /session/0a212bf7b8561ec6f72bcfc059365504/element/32e66692-9b5f-4eee-9ccd-9a2e31bbf030/property/value - {}
 RESULT: {}
-COMMAND: POST /session/8aedd305befe8c585302d66990376cc3/element - {"using":"xpath","value":"//tbody/tr[4]/td[2]"}
+COMMAND: POST /session/0a212bf7b8561ec6f72bcfc059365504/element - {"using":"xpath","value":"//tbody/tr[4]/td[2]"}
 RESULT: {"using":"xpath","value":"//tbody/tr[4]/td[2]"}
-COMMAND: GET /session/8aedd305befe8c585302d66990376cc3/element/f9a9f3a3-6d43-40b5-a086-32d322f479c9/property/value - {}
+COMMAND: GET /session/0a212bf7b8561ec6f72bcfc059365504/element/a396fc99-883e-401f-abb9-3f5b13b0a48b/property/value - {}
 RESULT: {}
-COMMAND: POST /session/8aedd305befe8c585302d66990376cc3/element - {"using":"xpath","value":"//tbody/tr[4]/td[4]"}
+COMMAND: POST /session/0a212bf7b8561ec6f72bcfc059365504/element - {"using":"xpath","value":"//tbody/tr[4]/td[4]"}
 RESULT: {"using":"xpath","value":"//tbody/tr[4]/td[4]"}
-COMMAND: GET /session/8aedd305befe8c585302d66990376cc3/element/e84a92ec-8750-4994-acff-90905e76fa2e/text - {}
+COMMAND: GET /session/0a212bf7b8561ec6f72bcfc059365504/element/cb11c708-2deb-411d-ab2e-bb05add23c89/text - {}
 RESULT: {}
-COMMAND: POST /session/8aedd305befe8c585302d66990376cc3/element - {"using":"xpath","value":"//tbody/tr[3]/td[3]"}
+COMMAND: POST /session/0a212bf7b8561ec6f72bcfc059365504/element - {"using":"xpath","value":"//tbody/tr[3]/td[3]"}
 RESULT: {"using":"xpath","value":"//tbody/tr[3]/td[3]"}
-COMMAND: GET /session/8aedd305befe8c585302d66990376cc3/element/19a7c9c4-8b98-4da6-93f6-441fd7905112/text - {}
+COMMAND: GET /session/0a212bf7b8561ec6f72bcfc059365504/element/4c8a6596-38ef-4410-b600-cc748bf8631e/text - {}
 RESULT: {}
-COMMAND: POST /session/8aedd305befe8c585302d66990376cc3/element - {"using":"xpath","value":"//tbody/tr[4]/td[3]"}
+COMMAND: POST /session/0a212bf7b8561ec6f72bcfc059365504/element - {"using":"xpath","value":"//tbody/tr[4]/td[3]"}
 RESULT: {"using":"xpath","value":"//tbody/tr[4]/td[3]"}
-COMMAND: GET /session/8aedd305befe8c585302d66990376cc3/element/7dcd5a58-ac1e-41af-b9d9-b497f44a8acb/text - {}
+COMMAND: GET /session/0a212bf7b8561ec6f72bcfc059365504/element/1dac4255-f94c-498a-a9d5-f1219538794c/text - {}
 RESULT: {}
-]]>
-      </system-out>
-    </testcase>
-    <testcase classname="chrome.88_0_4324_150.windows.Salesforce_E2E" name="should_delete_added_service" time="9.45">
-      <system-out>
-        <![CDATA[
-COMMAND: POST /session/8aedd305befe8c585302d66990376cc3/element - {"using":"xpath","value":"//tbody/tr[3]/td[6]/span[1]/div[1]"}
-RESULT: {"using":"xpath","value":"//tbody/tr[3]/td[6]/span[1]/div[1]"}
-COMMAND: POST /session/8aedd305befe8c585302d66990376cc3/element/b9865f9b-4267-40a4-bdcc-fc837e5ca6cc/click - {}
-RESULT: {}
-COMMAND: POST /session/8aedd305befe8c585302d66990376cc3/actions - {"actions":[{"type":"key","id":"keyboard","actions":[{"type":"keyDown","value":""},{"type":"keyUp","value":""}]}]}
-RESULT: {"actions":[{"type":"key","id":"keyboard","actions":[{"type":"keyDown","value":""},{"type":"keyUp","value":""}]}]}
-COMMAND: DELETE /session/8aedd305befe8c585302d66990376cc3/actions - {}
-RESULT: {}
-COMMAND: POST /session/8aedd305befe8c585302d66990376cc3/actions - {"actions":[{"type":"key","id":"keyboard","actions":[{"type":"keyDown","value":""},{"type":"keyUp","value":""}]}]}
-RESULT: {"actions":[{"type":"key","id":"keyboard","actions":[{"type":"keyDown","value":""},{"type":"keyUp","value":""}]}]}
-COMMAND: DELETE /session/8aedd305befe8c585302d66990376cc3/actions - {}
-RESULT: {}
-COMMAND: POST /session/8aedd305befe8c585302d66990376cc3/actions - {"actions":[{"type":"key","id":"keyboard","actions":[{"type":"keyDown","value":""},{"type":"keyUp","value":""}]}]}
-RESULT: {"actions":[{"type":"key","id":"keyboard","actions":[{"type":"keyDown","value":""},{"type":"keyUp","value":""}]}]}
-COMMAND: DELETE /session/8aedd305befe8c585302d66990376cc3/actions - {}
-RESULT: {}
-COMMAND: POST /session/8aedd305befe8c585302d66990376cc3/element - {"using":"xpath","value":"//span[contains(text(),'Delete')]"}
-RESULT: {"using":"xpath","value":"//span[contains(text(),'Delete')]"}
-COMMAND: POST /session/8aedd305befe8c585302d66990376cc3/element/dc051d46-47d9-4930-a389-88e2526849ee/click - {}
-RESULT: {}
-COMMAND: DELETE /session/8aedd305befe8c585302d66990376cc3 - {}
+COMMAND: DELETE /session/0a212bf7b8561ec6f72bcfc059365504 - {}
 RESULT: {}
 ]]>
       </system-out>
