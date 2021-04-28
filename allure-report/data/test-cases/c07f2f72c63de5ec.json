@@ -1,0 +1,56 @@
+{
+  "uid" : "c07f2f72c63de5ec",
+  "name" : "should update quantity of service accordingly",
+  "fullName" : "Salesforce E2E.should update quantity of service accordingly",
+  "historyId" : "d87ae972217bf6b1e441c1e410baca8f",
+  "time" : {
+    "start" : 1613144091836,
+    "stop" : 1613144098427,
+    "duration" : 6591
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Salesforce E2E"
+  }, {
+    "name" : "testClass",
+    "value" : "Salesforce E2E"
+  }, {
+    "name" : "testMethod",
+    "value" : "should update quantity of service accordingly"
+  }, {
+    "name" : "package",
+    "value" : "Salesforce E2E"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-88.0.4324.150"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "c07f2f72c63de5ec.json",
+  "parameterValues" : [ "chrome-88.0.4324.150" ]
+}

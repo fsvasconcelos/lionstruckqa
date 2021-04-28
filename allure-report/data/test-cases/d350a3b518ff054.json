@@ -1,0 +1,56 @@
+{
+  "uid" : "d350a3b518ff054",
+  "name" : "should return an opportunity",
+  "fullName" : "Salesforce E2E.should return an opportunity",
+  "historyId" : "3683fe40554015f5010ffc11cdb36d89",
+  "time" : {
+    "start" : 1613172059594,
+    "stop" : 1613172069973,
+    "duration" : 10379
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-1"
+  }, {
+    "name" : "suite",
+    "value" : "Salesforce E2E"
+  }, {
+    "name" : "testClass",
+    "value" : "Salesforce E2E"
+  }, {
+    "name" : "testMethod",
+    "value" : "should return an opportunity"
+  }, {
+    "name" : "package",
+    "value" : "Salesforce E2E"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-88.0.4324.150"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "d350a3b518ff054.json",
+  "parameterValues" : [ "chrome-88.0.4324.150" ]
+}

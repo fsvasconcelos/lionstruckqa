@@ -1,0 +1,102 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1613173615136' stop='1613173666710'>
+    <name>Salesforce E2E</name>
+    <title>Salesforce E2E</title>
+    <test-cases>
+        <test-case start='1613173615136' status='passed' stop='1613173616945'>
+            <name>should login</name>
+            <title>should login</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-88.0.4324.150'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1613173616946' status='broken' stop='1613173616951'>
+            <name>should update opportunity stage</name>
+            <title>should update opportunity stage</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-88.0.4324.150'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>accountId is not defined</message>
+                <stack-trace>ReferenceError: accountId is not defined
+                    at Context.&lt;anonymous> (C:\Source\lionstruckqa\webdriverio-test\test\specs\TC4-ManageQuotes.js:17:23)
+                    at Context.executeSync (C:\Source\lionstruckqa\webdriverio-test\node_modules\@wdio\sync\build\index.js:25:22)
+                    at C:\Source\lionstruckqa\webdriverio-test\node_modules\@wdio\sync\build\index.js:46:68</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1613173616952' status='passed' stop='1613173636631'>
+            <name>should add quote</name>
+            <title>should add quote</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-88.0.4324.150'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1613173636632' status='passed' stop='1613173642647'>
+            <name>should return created quote</name>
+            <title>should return created quote</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-88.0.4324.150'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1613173642648' status='passed' stop='1613173648667'>
+            <name>should update quote</name>
+            <title>should update quote</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-88.0.4324.150'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1613173648667' status='passed' stop='1613173666709'>
+            <name>should return order and assets</name>
+            <title>should return order and assets</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-88.0.4324.150'/>
+                <parameter kind='argument' name='browser' value='chrome-88.0.4324.150'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

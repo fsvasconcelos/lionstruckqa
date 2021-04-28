@@ -1,0 +1,56 @@
+{
+  "uid" : "8e3022e9d530de42",
+  "name" : "should login",
+  "fullName" : "Salesforce E2E.should login",
+  "historyId" : "e9f7a2c8fce0139050ddf6906c9d6c91",
+  "time" : {
+    "start" : 1613160407348,
+    "stop" : 1613160409198,
+    "duration" : 1850
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Salesforce E2E"
+  }, {
+    "name" : "testClass",
+    "value" : "Salesforce E2E"
+  }, {
+    "name" : "testMethod",
+    "value" : "should login"
+  }, {
+    "name" : "package",
+    "value" : "Salesforce E2E"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-88.0.4324.150"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "8e3022e9d530de42.json",
+  "parameterValues" : [ "chrome-88.0.4324.150" ]
+}

@@ -1,0 +1,74 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1613174508459' stop='1613174545282'>
+    <name>Salesforce E2E</name>
+    <title>Salesforce E2E</title>
+    <test-cases>
+        <test-case start='1613174508460' status='passed' stop='1613174510584'>
+            <name>should login</name>
+            <title>should login</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-88.0.4324.150'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1613174510585' status='passed' stop='1613174527467'>
+            <name>should create a new lead</name>
+            <title>should create a new lead</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-88.0.4324.150'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1613174527468' status='broken' stop='1613174542259'>
+            <name>should convert lead into account, contact and opportunity</name>
+            <title>should convert lead into account, contact and opportunity</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-88.0.4324.150'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>expected element to exist after 5s</message>
+                <stack-trace>Error: expected element to exist after 5s
+                    at C:\Source\lionstruckqa\webdriverio-test\node_modules\webdriverio\build\commands\browser\waitUntil.js:22:23
+                    at async Browser.runCommandWithHooks (C:\Source\lionstruckqa\webdriverio-test\node_modules\@wdio\sync\build\wrapCommand.js:70:25)
+                    at Browser.runCommandWithHooks (C:\Source\lionstruckqa\webdriverio-test\node_modules\@wdio\sync\build\wrapCommand.js:65:24)
+                    at Browser.wrapCommandFn (C:\Source\lionstruckqa\webdriverio-test\node_modules\@wdio\sync\build\wrapCommand.js:44:44)
+                    at Context.&lt;anonymous> (C:\Source\lionstruckqa\webdriverio-test\test\specs\TC1-LeadConversion.js:43:13)
+                    at Context.executeSync (C:\Source\lionstruckqa\webdriverio-test\node_modules\@wdio\sync\build\index.js:25:22)
+                    at C:\Source\lionstruckqa\webdriverio-test\node_modules\@wdio\sync\build\index.js:46:68</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1613174542260' status='passed' stop='1613174545281'>
+            <name>should return created account, contact and opportunity</name>
+            <title>should return created account, contact and opportunity</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-88.0.4324.150'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

@@ -1,0 +1,243 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "Salesforce E2E",
+    "children" : [ {
+      "name" : "should create a new opportunity",
+      "uid" : "330413f360b084b9",
+      "parentUid" : "87232bf9b0586ccb2f49cbff37c16795",
+      "status" : "passed",
+      "time" : {
+        "start" : 1613157214512,
+        "stop" : 1613157217521,
+        "duration" : 3009
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-88.0.4324.150" ]
+    }, {
+      "name" : "should add products to opportunity",
+      "uid" : "1d1a732a149b6340",
+      "parentUid" : "87232bf9b0586ccb2f49cbff37c16795",
+      "status" : "passed",
+      "time" : {
+        "start" : 1613157217521,
+        "stop" : 1613157242966,
+        "duration" : 25445
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-88.0.4324.150" ]
+    }, {
+      "name" : "should delete created account, contact and opportunity",
+      "uid" : "e8c205da789ab1e2",
+      "parentUid" : "87232bf9b0586ccb2f49cbff37c16795",
+      "status" : "passed",
+      "time" : {
+        "start" : 1613172089669,
+        "stop" : 1613172092703,
+        "duration" : 3034
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-88.0.4324.150" ]
+    }, {
+      "name" : "should create a new lead",
+      "uid" : "72afbb9918a67900",
+      "parentUid" : "87232bf9b0586ccb2f49cbff37c16795",
+      "status" : "passed",
+      "time" : {
+        "start" : 1613176361405,
+        "stop" : 1613176370948,
+        "duration" : 9543
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-88.0.4324.150" ]
+    }, {
+      "name" : "should convert lead into account, contact and opportunity",
+      "uid" : "20fd3b8b24bd7e21",
+      "parentUid" : "87232bf9b0586ccb2f49cbff37c16795",
+      "status" : "passed",
+      "time" : {
+        "start" : 1613176370948,
+        "stop" : 1613176385453,
+        "duration" : 14505
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-88.0.4324.150" ]
+    }, {
+      "name" : "should return created account, contact and opportunity",
+      "uid" : "19e76189c4acaf38",
+      "parentUid" : "87232bf9b0586ccb2f49cbff37c16795",
+      "status" : "passed",
+      "time" : {
+        "start" : 1613176385453,
+        "stop" : 1613176388458,
+        "duration" : 3005
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-88.0.4324.150" ]
+    }, {
+      "name" : "should return an opportunity",
+      "uid" : "893f8349ade832e8",
+      "parentUid" : "87232bf9b0586ccb2f49cbff37c16795",
+      "status" : "passed",
+      "time" : {
+        "start" : 1613176397769,
+        "stop" : 1613176407854,
+        "duration" : 10085
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-88.0.4324.150" ]
+    }, {
+      "name" : "should add service in opportunity",
+      "uid" : "f816d473016c1de7",
+      "parentUid" : "87232bf9b0586ccb2f49cbff37c16795",
+      "status" : "passed",
+      "time" : {
+        "start" : 1613176407855,
+        "stop" : 1613176427598,
+        "duration" : 19743
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-88.0.4324.150" ]
+    }, {
+      "name" : "should return an opportunity with line items",
+      "uid" : "f9f5788326afea8c",
+      "parentUid" : "87232bf9b0586ccb2f49cbff37c16795",
+      "status" : "passed",
+      "time" : {
+        "start" : 1613176434847,
+        "stop" : 1613176441625,
+        "duration" : 6778
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-88.0.4324.150" ]
+    }, {
+      "name" : "should not allow change quantity of service",
+      "uid" : "69b4bcf4b90be5ba",
+      "parentUid" : "87232bf9b0586ccb2f49cbff37c16795",
+      "status" : "passed",
+      "time" : {
+        "start" : 1613176441625,
+        "stop" : 1613176449814,
+        "duration" : 8189
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-88.0.4324.150" ]
+    }, {
+      "name" : "should update quantity of service accordingly",
+      "uid" : "c7d1f6ba22840487",
+      "parentUid" : "87232bf9b0586ccb2f49cbff37c16795",
+      "status" : "failed",
+      "time" : {
+        "start" : 1613176449814,
+        "stop" : 1613176457177,
+        "duration" : 7363
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-88.0.4324.150" ]
+    }, {
+      "name" : "should delete added service",
+      "uid" : "fe3465f16a9fee52",
+      "parentUid" : "87232bf9b0586ccb2f49cbff37c16795",
+      "status" : "passed",
+      "time" : {
+        "start" : 1613176457177,
+        "stop" : 1613176466209,
+        "duration" : 9032
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-88.0.4324.150" ]
+    }, {
+      "name" : "should login",
+      "uid" : "2aa8beab016a8da9",
+      "parentUid" : "87232bf9b0586ccb2f49cbff37c16795",
+      "status" : "passed",
+      "time" : {
+        "start" : 1613176471370,
+        "stop" : 1613176473179,
+        "duration" : 1809
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-88.0.4324.150" ]
+    }, {
+      "name" : "should update opportunity stage",
+      "uid" : "93fbad1fba98a951",
+      "parentUid" : "87232bf9b0586ccb2f49cbff37c16795",
+      "status" : "passed",
+      "time" : {
+        "start" : 1613176473179,
+        "stop" : 1613176485316,
+        "duration" : 12137
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-88.0.4324.150" ]
+    }, {
+      "name" : "should add quote",
+      "uid" : "f8dcb5ba4547cdba",
+      "parentUid" : "87232bf9b0586ccb2f49cbff37c16795",
+      "status" : "passed",
+      "time" : {
+        "start" : 1613176485316,
+        "stop" : 1613176504757,
+        "duration" : 19441
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-88.0.4324.150" ]
+    }, {
+      "name" : "should return created quote",
+      "uid" : "88165059896125aa",
+      "parentUid" : "87232bf9b0586ccb2f49cbff37c16795",
+      "status" : "passed",
+      "time" : {
+        "start" : 1613176504758,
+        "stop" : 1613176510785,
+        "duration" : 6027
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-88.0.4324.150" ]
+    }, {
+      "name" : "should update quote",
+      "uid" : "bf02f0c6a438dd17",
+      "parentUid" : "87232bf9b0586ccb2f49cbff37c16795",
+      "status" : "passed",
+      "time" : {
+        "start" : 1613176510785,
+        "stop" : 1613176516795,
+        "duration" : 6010
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-88.0.4324.150" ]
+    }, {
+      "name" : "should return order and assets",
+      "uid" : "da1cbaa7b6ce0e3c",
+      "parentUid" : "87232bf9b0586ccb2f49cbff37c16795",
+      "status" : "passed",
+      "time" : {
+        "start" : 1613176516795,
+        "stop" : 1613176534837,
+        "duration" : 18042
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-88.0.4324.150" ]
+    } ],
+    "uid" : "87232bf9b0586ccb2f49cbff37c16795"
+  } ]
+}

@@ -1,0 +1,181 @@
+[ {
+  "uid" : "bf02f0c6a438dd17",
+  "name" : "should update quote",
+  "time" : {
+    "start" : 1613176510785,
+    "stop" : 1613176516795,
+    "duration" : 6010
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e8c205da789ab1e2",
+  "name" : "should delete created account, contact and opportunity",
+  "time" : {
+    "start" : 1613172089669,
+    "stop" : 1613172092703,
+    "duration" : 3034
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2aa8beab016a8da9",
+  "name" : "should login",
+  "time" : {
+    "start" : 1613176471370,
+    "stop" : 1613176473179,
+    "duration" : 1809
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "fe3465f16a9fee52",
+  "name" : "should delete added service",
+  "time" : {
+    "start" : 1613176457177,
+    "stop" : 1613176466209,
+    "duration" : 9032
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "72afbb9918a67900",
+  "name" : "should create a new lead",
+  "time" : {
+    "start" : 1613176361405,
+    "stop" : 1613176370948,
+    "duration" : 9543
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f8dcb5ba4547cdba",
+  "name" : "should add quote",
+  "time" : {
+    "start" : 1613176485316,
+    "stop" : 1613176504757,
+    "duration" : 19441
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f9f5788326afea8c",
+  "name" : "should return an opportunity with line items",
+  "time" : {
+    "start" : 1613176434847,
+    "stop" : 1613176441625,
+    "duration" : 6778
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "20fd3b8b24bd7e21",
+  "name" : "should convert lead into account, contact and opportunity",
+  "time" : {
+    "start" : 1613176370948,
+    "stop" : 1613176385453,
+    "duration" : 14505
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "330413f360b084b9",
+  "name" : "should create a new opportunity",
+  "time" : {
+    "start" : 1613157214512,
+    "stop" : 1613157217521,
+    "duration" : 3009
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c7d1f6ba22840487",
+  "name" : "should update quantity of service accordingly",
+  "time" : {
+    "start" : 1613176449814,
+    "stop" : 1613176457177,
+    "duration" : 7363
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "da1cbaa7b6ce0e3c",
+  "name" : "should return order and assets",
+  "time" : {
+    "start" : 1613176516795,
+    "stop" : 1613176534837,
+    "duration" : 18042
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "93fbad1fba98a951",
+  "name" : "should update opportunity stage",
+  "time" : {
+    "start" : 1613176473179,
+    "stop" : 1613176485316,
+    "duration" : 12137
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "69b4bcf4b90be5ba",
+  "name" : "should not allow change quantity of service",
+  "time" : {
+    "start" : 1613176441625,
+    "stop" : 1613176449814,
+    "duration" : 8189
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "893f8349ade832e8",
+  "name" : "should return an opportunity",
+  "time" : {
+    "start" : 1613176397769,
+    "stop" : 1613176407854,
+    "duration" : 10085
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "19e76189c4acaf38",
+  "name" : "should return created account, contact and opportunity",
+  "time" : {
+    "start" : 1613176385453,
+    "stop" : 1613176388458,
+    "duration" : 3005
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f816d473016c1de7",
+  "name" : "should add service in opportunity",
+  "time" : {
+    "start" : 1613176407855,
+    "stop" : 1613176427598,
+    "duration" : 19743
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1d1a732a149b6340",
+  "name" : "should add products to opportunity",
+  "time" : {
+    "start" : 1613157217521,
+    "stop" : 1613157242966,
+    "duration" : 25445
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "88165059896125aa",
+  "name" : "should return created quote",
+  "time" : {
+    "start" : 1613176504758,
+    "stop" : 1613176510785,
+    "duration" : 6027
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

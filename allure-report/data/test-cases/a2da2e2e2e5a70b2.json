@@ -1,0 +1,58 @@
+{
+  "uid" : "a2da2e2e2e5a70b2",
+  "name" : "should not allow change quantity of service",
+  "fullName" : "Salesforce E2E.should not allow change quantity of service",
+  "historyId" : "7b19eeb774050ab25e1d3af726e92d37",
+  "time" : {
+    "start" : 1613147464909,
+    "stop" : 1613147469998,
+    "duration" : 5089
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "browser.waitUntil(...).then is not a function",
+  "statusTrace" : "TypeError: browser.waitUntil(...).then is not a function\n                    at Context.<anonymous> (C:\\Source\\lionstruckqa\\webdriverio-test\\test\\specs\\TC3-ManageSubscriptionProducts.js:40:7)\n                    at Context.executeSync (C:\\Source\\lionstruckqa\\webdriverio-test\\node_modules\\@wdio\\sync\\build\\index.js:25:22)\n                    at C:\\Source\\lionstruckqa\\webdriverio-test\\node_modules\\@wdio\\sync\\build\\index.js:46:68",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Salesforce E2E"
+  }, {
+    "name" : "testClass",
+    "value" : "Salesforce E2E"
+  }, {
+    "name" : "testMethod",
+    "value" : "should not allow change quantity of service"
+  }, {
+    "name" : "package",
+    "value" : "Salesforce E2E"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-88.0.4324.150"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "a2da2e2e2e5a70b2.json",
+  "parameterValues" : [ "chrome-88.0.4324.150" ]
+}
