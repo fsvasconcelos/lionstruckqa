@@ -2,5 +2,6 @@
     "username": "fvasco@challengeqa.com",
     "password": "fonds.1504",
     "passwordWithToken": "fonds.1504Aj05Y6kFWtr1cwqMZOZzODRX",
-    "instance": "https://lisboa2-dev-ed.my.salesforce.com"
+    "instance": "https://lisboa2-dev-ed.my.salesforce.com",
+    "git.ignoreLimitWarning": true
 }
