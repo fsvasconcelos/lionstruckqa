@@ -19,7 +19,7 @@
     "@wdio/spec-reporter": "^6.11.0",
     "@wdio/sync": "^6.11.0",
     "chai": "^4.2.0",
-    "chromedriver": "^88.0.0",
+    "chromedriver": "^90.0.0",
     "wdio-chromedriver-service": "^6.0.4",
     "wdio-performancetotal-service": "^1.0.5"
   },
