@@ -68,7 +68,12 @@ exports.config = {
         'goog:chromeOptions': {
             // to run chrome headless the following flags are required
             // (see https://developers.google.com/web/updates/2017/04/headless-chrome)
-            args: ['--disable-notifications']
+            args: ['--disable-notifications',
+                   '--no-sandbox',
+                   '--disable-infobars',
+                   '--headless',
+                   '--disable-gpu',
+                   '--window-size=1440,735']
             }
         // If outputDir is provided WebdriverIO can capture driver session logs
         // it is possible to configure which logTypes to include/exclude.
