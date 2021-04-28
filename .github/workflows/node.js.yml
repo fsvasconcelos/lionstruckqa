@@ -11,11 +11,9 @@ jobs:
         - name: Checkout
           uses: actions/checkout@v2
         - name: Install
-          with:
-            args: npm install @wdio/cli
+          run: npm install @wdio/cli
         - name: Test
-          with:
-            args: npx wdio run ./wdio.conf.js
+          run: npx wdio run ./wdio.conf.js
         - uses: actions/upload-artifact@v1
           if: failure()
           with:
