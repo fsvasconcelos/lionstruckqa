@@ -11,9 +11,13 @@ jobs:
         - name: Checkout
           uses: actions/checkout@v2
         - name: Install
-          run: npm install @wdio/cli
+          uses: ianwalter/puppeteer@afefc4bee7341a77baa94503da684e2895ea5d30
+          with:
+           args: npm install @wdio/cli
         - name: Test
-          run: npx wdio run ./wdio.conf.js
+          uses: ianwalter/puppeteer@afefc4bee7341a77baa94503da684e2895ea5d30
+          with:
+           args: npx wdio run ./wdio.conf.js
         - uses: actions/upload-artifact@v1
           if: failure()
           with:
