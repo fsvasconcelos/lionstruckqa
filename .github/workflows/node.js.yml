@@ -3,31 +3,24 @@
 
 name: Node.js CI
 
-on:
-  push:
-    branches: [ master ]
-  pull_request:
-    branches: [ master ]
-
+on: [push, pull_request]
 jobs:
   build:
-
     runs-on: ubuntu-latest
-
-    strategy:
-      matrix:
-        node-version: [14.x]
-        # See supported Node.js release schedule at https://nodejs.org/en/about/releases/
-
+    defaults:
+      run:
+        working-directory: ./webdriverio-test
     steps:
         - name: Checkout
           uses: actions/checkout@v2
         - name: Install
-          working-directory: ./webdriverio-test
-          run: npm install
+          uses: ianwalter/puppeteer-container@afefc4bee7341a77baa94503da684e2895ea5d30
+          with:
+            args: npm install
         - name: Test
-          working-directory: ./webdriverio-test
-          run: npx wdio run ./wdio.conf.js
+          uses: ianwalter/puppeteer-container@afefc4bee7341a77baa94503da684e2895ea5d30
+          with:
+            args: npm run test:local
         - uses: actions/upload-artifact@v1
           if: failure()
           with:
