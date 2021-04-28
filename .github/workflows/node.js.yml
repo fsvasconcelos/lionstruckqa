@@ -27,7 +27,7 @@ jobs:
           run: npm install
         - name: Test
           working-directory: ./webdriverio-test
-          run: npm run test:local
+          run: npx wdio run ./wdio.conf.js
         - uses: actions/upload-artifact@v1
           if: failure()
           with:
