@@ -2,7 +2,7 @@ var chai = require('chai'),
     assert = chai.assert,
     jsforce = require('jsforce'),
     conn = new jsforce.Connection(),
-    settings = require('../../../.vscode/settings.json'),
+    settings = require('../../.vscode/settings.json'),
     myConstClass = require('../utils/constants.js');
 
 describe('Salesforce E2E', function () {
