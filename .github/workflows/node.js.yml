@@ -10,14 +10,6 @@ jobs:
     steps:
         - name: Checkout
           uses: actions/checkout@v2
-        - name: Install
-          uses: ianwalter/puppeteer@afefc4bee7341a77baa94503da684e2895ea5d30
-          with:
-           args: npm install @wdio/cli
-        - name: Test
-          uses: ianwalter/puppeteer@afefc4bee7341a77baa94503da684e2895ea5d30
-          with:
-           args: npx wdio run ./wdio.conf.js
         - name: Publish Test Report
           uses: mikepenz/action-junit-report@v2
           with:
