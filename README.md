@@ -1,1 +1,1 @@
-# lionstruckqa
+# Repository for automation testing SalesMAN team
